@@ -1,14 +1,13 @@
 'use strict';
 
 import React, {Component} from 'react';
-import {bindActionCreators} from 'redux';
 
 import Chat from '../components/chat';
 
 import * as ChatActions from '../actions/chatActions';
 
 import { bindActionCreators } from 'redux';
-import { connect } rom 'react-redux';
+import { connect } from 'react-redux';
 
 
 class ChatContainer extends Component {
