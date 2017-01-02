@@ -50,6 +50,13 @@ module.exports = React.createClass({
 	},
 
 
+	increaseStep: function() {
+
+		this._step += 1;
+
+	},
+
+
 	getQuestion: function(){
 
 		var fLength = this._fileLength - 1;		
@@ -66,6 +73,7 @@ module.exports = React.createClass({
 
 	loadQuestion: function(){
 		console.log(this._file.length);
+		console.log("step " + this._step);
 
 		var question = this.getQuestion();
 
@@ -79,7 +87,9 @@ module.exports = React.createClass({
 			"text" : question.question,
 			"answer" : question.answer,
 			"option1" : question.option1,
-			"option2" : question.option2
+			"option2" : question.option2,
+			"answerText" : question.answerText,
+			"user" : "bot"
 		}
 
 		this.setState({
@@ -141,13 +151,23 @@ module.exports = React.createClass({
 		var _this = this;
 		var stat = this.state;
 		let uni = Math.round(Math.random() * 100000);
+		var position;
+		var user = obj.user;
+
+
+		if(user.toUpperCase() === 'PLAYER' ) {	
+			position = "right"
+		} else {
+			position = "left"
+		}
+
 
 		return [
 			...stat.messages,
 			{
 				"text" : obj.text,
 				"name" : "",
-				"position" : "left",
+				"position" : position,
 				"date" : new Date(),
 				"uniqueId" : uni 
 			}
@@ -159,10 +179,46 @@ module.exports = React.createClass({
 	handleSend: function( message = {} ) {
 
 		var _this = this;
+		var question = this._question;
 		console.log(message);
+
+		var ray = this.addMessages(message);
+
+		this.setState({
+			messages: ray,
+			answerTime: false
+		});
+
+		if( message.choice === question.answer ){
+			console.log("ANSWER IF RIGHT!");
+			_this.sendResult("Correct!");
+		} else {
+			console.log("ANSWER IS WRONG");
+			_this.sendResult("Wrong!");
+		}
 
 	},
 
+
+	sendResult: function(check){
+		var question = this._question;
+		var text = check + " " + question.answerText;
+		console.log(text);
+		var message = {
+			"text" : text,
+			"user" : "bot"
+		}
+
+		var ray = this.addMessages(message);
+
+		this.setState({
+			messages: ray
+		})
+
+
+		this.loadQuestion();
+
+	},
 
 	render: function(){
 		return (
