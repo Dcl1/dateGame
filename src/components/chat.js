@@ -32,6 +32,7 @@ module.exports = React.createClass({
 			messages: [],
 			usedIds: [],
 			typingMessage: '',
+			answerTime: false,
 			responseUno: 'Response one here',
 			responseDeuce: 'Response two here'
 		};
@@ -45,7 +46,7 @@ module.exports = React.createClass({
 
 	componentDidMount: function(){
 		this._fileLength = this._file.length;
-		this.loadQuestions();
+		this.loadQuestion();
 	},
 
 
@@ -63,7 +64,7 @@ module.exports = React.createClass({
 	},
 
 
-	loadQuestions: function(){
+	loadQuestion: function(){
 		console.log(this._file.length);
 
 		var question = this.getQuestion();
@@ -82,7 +83,8 @@ module.exports = React.createClass({
 		}
 
 		this.setState({
-			usedIds: used
+			usedIds: used,
+			answerTime: false
 		});
 
 
@@ -113,7 +115,23 @@ module.exports = React.createClass({
 			this.setState({
 				messages: ray
 			});
+
+			_this.needAnswer(question);
 		}, 1300);
+
+	},
+
+
+	needAnswer: function(question){
+
+		var resOne = question.option1;
+		var resTwo = question.option2;
+
+		this.setState({
+			responseUno: resOne,
+			responseDeuce: resTwo,
+			answerTime: true
+		});
 
 	},
 
@@ -135,7 +153,13 @@ module.exports = React.createClass({
 			}
 
 		]
+	},
 
+
+	handleSend: function( message = {} ) {
+
+		var _this = this;
+		console.log(message);
 
 	},
 
@@ -161,7 +185,7 @@ module.exports = React.createClass({
 
 				parseTest={true}
 				typingMessage={this.state.typingMessage}
-				disabled={false}
+				disabled={this.state.answerTime ? false : true}
 
 				responseOne={this.state.responseUno}
 				responseTwo={this.state.responseDeuce}
