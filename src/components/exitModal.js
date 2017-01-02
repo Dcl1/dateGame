@@ -14,14 +14,48 @@ import { Actions } from 'react-native-router-flux';
 
 module.exports = React.createClass({
 
+
+	getInitialState: function(){
+
+		return {
+			hide : true
+		};
+
+	},
+
+	dismissModal: function(){
+
+		this.setState({
+			hide: true
+		});
+
+	},
+
+
+
 	render: function(){
-		return (
-			<View style={styles.container}>
-				<Text>
-					Exit
-				</Text>
-			</View>
-		);
+
+		if(this.state.hide) {
+			return (
+				<View>
+				</View>
+			)
+		} else {
+			return (
+				<View style={styles.container}>
+					<TouchableHighlight onPress={this.dismissModal} >
+						<Text>
+							Hide
+						</Text>
+					</TouchableHighlight>
+					<Text>
+						Exit
+					</Text>
+				</View>
+			);
+		}
+
+
 	}
 
 });
