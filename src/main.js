@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 import StartScreen from './components/startScreen';
-import Chat from './components/chat';
+import Chat from './containers/chatContainer';
 
 
 import { Router, Scene, Actions } from 'react-native-router-flux';
@@ -21,8 +21,8 @@ module.exports = React.createClass({
 			<Router>
 			<Scene key='roots' style={styles.container}>
 				<Scene key='quiz' title='Take the quiz' >
-					<Scene key="StartScreen" component={StartScreen} initial={true} />
-					<Scene key="Chat" component={Chat} />
+					<Scene key="StartScreen" component={StartScreen} initial={true} hideNavBar={true} />
+					<Scene key="Chat" component={Chat} hideNavBar={false} />
 				</Scene>
 			</Scene>
 			</Router>
