@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-native-button';
 
 import {
 	View,
@@ -19,6 +20,12 @@ module.exports = React.createClass({
 				<Text>
 					Start screen
 				</Text>
+				<Button
+					style={{fontSize: 20, color: 'green'}}
+					onPress={ () => Actions.Chat() }
+				>
+					Start Quiz
+				</Button>
 			</View>
 		);
 	}
