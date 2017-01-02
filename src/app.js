@@ -9,9 +9,30 @@ import createEngine from 'redux-storage-engine-reactnativeasyncstorage';
 
 import * as reducers from './reducers';
 
+import Main from './main';
+
 
 const reducer = storage.reducer(combineReducers(reducers));
 const engine = createEngine('dateApp1');
 const storageMiddleware = storage.createMiddleware(engine);
 
-let middleware = [thunk]
+let middleware = [thunk, storageMiddleware];
+const createStoreWithMiddleware = applyMiddleware(...middleware)(createStore);
+const store = createStoreWithMiddleware(reducer);
+
+const load = storage.createLoader(engine);
+
+load(store)
+	.then((newState) => console.log('Loaded state: ', newState))
+	.catch(() => console.log('Failed to load previous state'));
+
+
+module.exports = React.createClass({
+	render: function(){
+		return (
+			<Provider store={store}>
+				<Main />
+			</Provider>
+		);
+	}
+});
