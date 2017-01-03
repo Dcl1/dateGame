@@ -60,9 +60,23 @@ export default class Chat extends Component {
 		var _this = this;
 		let uni = Math.round(Math.random() * 100000);
 		console.log(message);
-		//var theAnswer = _this.addMessage({"text" : message.text , "name" : message.user, "position" : "right", "date" : new Date(), "uniqueId" : uni});
+		var theAnswer = _this.addMessage({"text" : message.text , "name" : message.user, "position" : "right", "date" : new Date(), "uniqueId" : uni});
 
-		this.testFunc();
+		this.setState({
+			messages: theAnswer,
+			answerTime: false
+		});
+
+
+		setTimeout(() => {
+			if( message.choice === _this._question.answer ){
+				_this.sendResult("Corrent!");
+			} else {
+				_this.sendResult("Wrong!");
+			}
+		}, 1000);
+
+
 
 	}
 
@@ -110,7 +124,7 @@ export default class Chat extends Component {
 			this.setState({
 				typingMessage: '',
 			});
-		}, 1000);	
+		}, 2400);	
 
 		setTimeout(() => {
 
@@ -119,7 +133,7 @@ export default class Chat extends Component {
 			});
 
 			_this.needAnswer(question);
-		}, 1300);
+		}, 3000);
 
 	}
 
@@ -131,8 +145,47 @@ export default class Chat extends Component {
 
 		this.setState({
 			responseUno: resOne,
-			responseDeuce: resTwo
+			responseDeuce: resTwo,
+			answerTime: true
 		});
+
+	}
+
+
+	sendResult(check) {
+
+		var _this = this;
+		var answerText = check + " " + _this._question.answerText;
+		let uni = Math.round(Math.random() * 1000000);
+
+		var message = this.addMessage({"text" : answerText , "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni });
+
+
+
+		setTimeout(() => {
+			this.setState({
+				typingMessage: 'Typing a message ...',
+			});
+		}, 400);
+
+		setTimeout(() => {
+			this.setState({
+				typingMessage: '',
+			});
+		}, 1500);	
+
+		setTimeout(() => {
+
+			this.setState({
+				messages: message
+			});
+
+			
+		}, 1800);	
+
+		setTimeout(() => {
+			_this.loadQuestion();
+		}, 2400);	
 
 	}
 
