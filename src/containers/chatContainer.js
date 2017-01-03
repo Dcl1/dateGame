@@ -2,7 +2,7 @@
 
 import React, {Component} from 'react';
 
-import Chat from '../components/chat';
+import Chat from '../components/chat1';
 
 import * as ChatActions from '../actions/chatActions';
 

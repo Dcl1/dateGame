@@ -126,6 +126,8 @@ module.exports = React.createClass({
 				messages: ray
 			});
 
+			console.log(ray);
+
 			_this.needAnswer(question);
 		}, 1300);
 
@@ -149,21 +151,23 @@ module.exports = React.createClass({
 	addMessages: function(obj){
 
 		var _this = this;
-		var stat = this.state;
+		//var stat = this.state;
 		let uni = Math.round(Math.random() * 100000);
 		var position;
 		var user = obj.user;
 
 
 		if(user.toUpperCase() === 'PLAYER' ) {	
+			console.log("It is player");
 			position = "right"
 		} else {
+			console.log("It is not player");
 			position = "left"
 		}
 
-
+		console.log(_this.state.messages);
 		return [
-			...stat.messages,
+			..._this.state.messages,
 			{
 				"text" : obj.text,
 				"name" : "",
@@ -183,11 +187,13 @@ module.exports = React.createClass({
 		console.log(message);
 
 		var ray = this.addMessages(message);
+		console.log(ray);
 
 		this.setState({
-			messages: ray,
-			answerTime: false
+			messages: ray
 		});
+
+		console.log(_this.state.messages);
 
 		if( message.choice === question.answer ){
 			console.log("ANSWER IF RIGHT!");
@@ -210,6 +216,8 @@ module.exports = React.createClass({
 		}
 
 		var ray = this.addMessages(message);
+
+
 
 		this.setState({
 			messages: ray
