@@ -28,6 +28,8 @@ export default class Chat extends Component {
 		this._file;
 		this._question;
 
+		this.handleSend = this.handleSend.bind(this);
+
 		this.state = {
 			messages: [],
 			typingMessage: '',
@@ -48,8 +50,24 @@ export default class Chat extends Component {
 		return newMessages;
 	}
 
+	testFunc() {
+		console.log("The test works");
+	}
 
-	componentWillMount(){
+
+	handleSend( message = {} ) {
+
+		var _this = this;
+		let uni = Math.round(Math.random() * 100000);
+		console.log(message);
+		//var theAnswer = _this.addMessage({"text" : message.text , "name" : message.user, "position" : "right", "date" : new Date(), "uniqueId" : uni});
+
+		this.testFunc();
+
+	}
+
+
+	componentWillMount() {
 		this._file = Questions.questions;
 	}
 
@@ -117,6 +135,8 @@ export default class Chat extends Component {
 		});
 
 	}
+
+
 
 
 	render() {
