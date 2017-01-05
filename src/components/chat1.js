@@ -15,7 +15,9 @@ import {
 import GiftedMessenger from 'react-native-gifted-messenger';
 var STATUS_BAR_HEIGHT = Navigator.NavigationBar.Styles.General.StatusBarHeight;
 import { Actions } from 'react-native-router-flux';
+
 import Questions from '../data/questions.json';
+import MenQuestions from '../data/menQuestions.json';
 
 
 export default class Chat extends Component {
@@ -27,6 +29,8 @@ export default class Chat extends Component {
 
 		this._file;
 		this._question;
+		this._step;
+		this._right;
 
 		this.handleSend = this.handleSend.bind(this);
 
@@ -40,27 +44,44 @@ export default class Chat extends Component {
 
 	}
 
+
+	increaseStep() {
+		this._step +=1;
+	}
+
+	callEnding(){
+
+		var _this = this;
+		
+		var message = _this._right + "/10 CORRECT";
+
+
+		//var theAnswer = _this.addMessage({"text" : message , "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni , "image" : require('image!starIcon') });
+
+		for(var i = 0; i < 4; i++ ){
+			let uni = Math.round(Math.random() * 100000);
+			let theAnswer = _this.addMessage({"text" : message , "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni , "image" : require('image!starIcon') });
+			_this.setState({
+				messages: theAnswer
+			});			
+		}
+
+	}
+
 	addMessage(msg) {
 
 		var messages = this.state.messages;
 
 		var newMessages = messages.concat(msg);
-		console.log(newMessages);
 
 		return newMessages;
 	}
-
-	testFunc() {
-		console.log("The test works");
-	}
-
 
 	handleSend( message = {} ) {
 
 		var _this = this;
 		let uni = Math.round(Math.random() * 100000);
-		console.log(message);
-		var theAnswer = _this.addMessage({"text" : message.text , "name" : message.user, "position" : "right", "date" : new Date(), "uniqueId" : uni});
+		var theAnswer = _this.addMessage({"text" : message.text , "name" : message.user, "position" : "right", "date" : new Date(), "uniqueId" : uni });
 
 		this.setState({
 			messages: theAnswer,
@@ -70,7 +91,8 @@ export default class Chat extends Component {
 
 		setTimeout(() => {
 			if( message.choice === _this._question.answer ){
-				_this.sendResult("Corrent!");
+				_this._right += 1;
+				_this.sendResult("Correct!");
 			} else {
 				_this.sendResult("Wrong!");
 			}
@@ -82,11 +104,20 @@ export default class Chat extends Component {
 
 
 	componentWillMount() {
-		this._file = Questions.questions;
+		var gender = this.props.gender;
+		var _this = this;
+
+		if( gender === 'men' ){
+			_this._file = MenQuestions.questions;
+		} else {
+			_this._file = Questions.questions;
+		}
 	}
 
 
 	componentDidMount() {
+		this._step = 0;
+		this._right = 0;
 		this._fileLength = this._file.length;
 		this.loadQuestion();
 	}
@@ -94,6 +125,10 @@ export default class Chat extends Component {
 	loadQuestion() {
 
 		var _this = this;
+
+
+
+
 		var fLength = this._fileLength - 1;
 		var numInt = Math.random() * fLength;
 		var num = Math.round(numInt);
@@ -110,7 +145,7 @@ export default class Chat extends Component {
 			"user" : "bot"
 		}
 
-		var message = this.addMessage({"text" : question.question, "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni });
+		var message = this.addMessage({"text" : question.question, "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni, "image" : require('image!starIcon')  });
 
 
 
@@ -158,7 +193,7 @@ export default class Chat extends Component {
 		var answerText = check + " " + _this._question.answerText;
 		let uni = Math.round(Math.random() * 1000000);
 
-		var message = this.addMessage({"text" : answerText , "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni });
+		var message = this.addMessage({"text" : answerText , "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni, "image" : require('image!starIcon')  });
 
 
 
@@ -184,7 +219,16 @@ export default class Chat extends Component {
 		}, 1800);	
 
 		setTimeout(() => {
-			_this.loadQuestion();
+			
+			if(_this._step < 9){
+				console.log(_this._step);
+				_this.increaseStep();
+				_this.loadQuestion();
+			} else {
+				_this.callEnding();
+			}
+
+
 		}, 2400);	
 
 	}

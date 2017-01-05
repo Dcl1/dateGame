@@ -18,10 +18,12 @@ class ChatContainer extends Component {
 
 	render(){
 		const { state, actions } = this.props;
+		var gd = this.props.gender;
 		//var clist = state.chat.clist;
 
 		return (
 			<Chat
+				gender={gd}
 				{...actions}
 			/>
 		);
