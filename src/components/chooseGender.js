@@ -24,7 +24,7 @@ module.exports = React.createClass({
 						Do you prefer to date men or women?
 					</Text>
 					<Text style={styles.body}>
-						200 Men & 200 Women answered questions about their dating preferences. Answer 12 questions and see if you know your stuff? 
+						200 Men & 200 Women answered questions about their dating preferences. Answer 10 questions and see if you know your stuff? 
 					</Text>
 				</View>
 				<View style={styles.actionArea} >
@@ -54,7 +54,7 @@ var styles = StyleSheet.create({
 		flex: 1,
 		flexDirection: 'column',
 		margin: 8,
-		marginTop: 24
+		marginTop: 54
 	},
 
 	textArea: {

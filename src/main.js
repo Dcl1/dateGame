@@ -10,6 +10,7 @@ import {
 import StartScreen from './components/startScreen';
 import Chat from './containers/chatContainer';
 import Choose from './components/chooseGender';
+import Policy from './components/policy';
 //import Exit from './components/exitModal';
 
 
@@ -22,6 +23,10 @@ module.exports = React.createClass({
 	goBack: function(){
 		Actions.pop()
 		Actions.StartScreen()
+	},
+
+	callInfo: function(){
+		Actions.Policy()
 	},
 
 	callModal: function(){
@@ -41,9 +46,10 @@ module.exports = React.createClass({
 			<Router>
 				<Scene key='root' style={styles.container}>
 					<Scene key='quiz' title='Take the quiz' navigationBarStyle={styles.navBar} >
-						<Scene key="StartScreen" component={StartScreen} initial={true} hideNavBar={true} />
-						<Scene key="ChooseScreen" component={Choose} hideNavBar={true} />
+						<Scene key="StartScreen" component={StartScreen} hideBackImage={true} navigationBarStyle={styles.navBarNo} initial={true} hideNavBar={false} rightButtonImage={require('image!info')} onRight={() => this.callInfo()}  />
+						<Scene key="ChooseScreen" component={Choose} hideNavBar={false} navigationBarStyle={styles.navBarNo} />
 						<Scene key="Chat" component={Chat} hideNavBar={false} onBack={()=> this.callModal() } />
+						<Scene key="Policy" component={Policy} navigationBarStyle={styles.navBar} />
 					</Scene>
 				</Scene>
 			</Router>
@@ -56,6 +62,12 @@ module.exports = React.createClass({
 var styles = StyleSheet.create({
 	container: {
 		backgroundColor: 'aliceblue'
+	},
+
+	navBarNo: {
+		backgroundColor: 'white',
+		borderColor: 'white',
+		borderBottomColor: 'white'
 	},
 
 	navBar: {

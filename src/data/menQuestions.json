@@ -2,43 +2,43 @@
 	"questions" : [
 		{
 			"id" : 1,
-			"question" : "do men like chocolate? 1",
+			"question" : "Do a majority of men expect to spend more or less than $50 on a first date?",
 			"answer" : 1,
-			"answerText" : "This IS WHY",
-			"option1" : "Yes",
-			"option2" : "no"
+			"answerText" : "60% of men said they expect to spend less than $50 on a first date",
+			"option1" : "Spend less than $50 on the first date",
+			"option2" : "Spend more than $50 on the first date"
 		},
 		{
 			"id" : 2,
-			"question" : "do men like chocolate? 2",
-			"answer" : 1,
-			"answerText" : "This IS WHY",
-			"option1" : "Yes",
-			"option2" : "no"
+			"question" : "Do a majority of men prefer to pick up their date verses meet their date at a location?",
+			"answer" : 2,
+			"answerText" : "35% of men prefer to pick up their dates verses 53% of men you rather meet their dates at a loction. 12% of men prefer to picked up for their date.",
+			"option1" : "Yes a majority of men prefer to pick up their date",
+			"option2" : "no a majority of men prefer not to pick up their date verses meet their date at a location"
 		},
 		{
 			"id" : 3,
-			"question" : "do men like chocolate? 3",
+			"question" : "If a guy was on a date and they were not clicking with their date, would the guy see the person for another date? ",
 			"answer" : 1,
-			"answerText" : "This IS WHY",
-			"option1" : "Yes",
-			"option2" : "no"
+			"answerText" : "Kinda .... 52% of men said they would go up to 2 to 3 dates with a person they did not click with on the first date",
+			"option1" : "Yes I believe most guys would go on another date with that person",
+			"option2" : "no I believe most guys would not go on another date with that person"
 		},
 		{
 			"id" : 4,
-			"question" : "do men like chocolate? 4",
+			"question" : "On date if the couple cannot decided on a restaurant to eat at, would a majority of men make the final decision or prefer their date to make the final decision?",
 			"answer" : 1,
-			"answerText" : "This IS WHY",
-			"option1" : "Yes",
-			"option2" : "no"
+			"answerText" : "62% of men would make the final decision",
+			"option1" : "Yes a majority of men would prefer to make the final decision",
+			"option2" : "No a majority of men would like their date to make the final decision "
 		},
 		{
 			"id" : 5,
-			"question" : "do men like chocolate? 5",
-			"answer" : 1,
-			"answerText" : "This IS WHY",
-			"option1" : "Yes",
-			"option2" : "no"
+			"question" : "Do a vast majority of men like to tell their friends about a date they are going on?",
+			"answer" : 2,
+			"answerText" : "Actually only 50% of men would tell their friends about a date. This is different than 85% of women would said they tell their friends about upcoming dates.",
+			"option1" : "Yes a vast majority of men tell their friends when they are going on a date",
+			"option2" : "No a vast majority of men do not tell their friends when they are going on a date"
 		},
 		{
 			"id" : 6,

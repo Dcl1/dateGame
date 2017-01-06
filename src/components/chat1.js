@@ -38,8 +38,8 @@ export default class Chat extends Component {
 			messages: [],
 			typingMessage: '',
 			answerTime: true,
-			responseUno: 'boo',
-			responseDeuce: 'boo2'
+			responseUno: '',
+			responseDeuce: ''
 		}
 
 	}
@@ -60,7 +60,7 @@ export default class Chat extends Component {
 
 		for(var i = 0; i < 4; i++ ){
 			let uni = Math.round(Math.random() * 100000);
-			let theAnswer = _this.addMessage({"text" : message , "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni , "image" : require('image!starIcon') });
+			let theAnswer = _this.addMessage({"text" : message , "name" : "Date Calculator", "position" : "left", "date" : new Date(), "uniqueId" : uni , "image" : require('image!starIcon') });
 			_this.setState({
 				messages: theAnswer
 			});			
@@ -85,7 +85,7 @@ export default class Chat extends Component {
 
 		this.setState({
 			messages: theAnswer,
-			answerTime: false
+			answerTime: true
 		});
 
 
@@ -145,13 +145,14 @@ export default class Chat extends Component {
 			"user" : "bot"
 		}
 
-		var message = this.addMessage({"text" : question.question, "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni, "image" : require('image!starIcon')  });
+		var message = this.addMessage({"text" : question.question, "name" : "Date Calculator", "position" : "left", "date" : new Date(), "uniqueId" : uni, "image" : require('image!starIcon')  });
 
 
 
 		setTimeout(() => {
 			this.setState({
 				typingMessage: 'Typing a message ...',
+				answerTime: true
 			});
 		}, 400);
 
@@ -181,7 +182,7 @@ export default class Chat extends Component {
 		this.setState({
 			responseUno: resOne,
 			responseDeuce: resTwo,
-			answerTime: true
+			answerTime: false
 		});
 
 	}
@@ -193,7 +194,7 @@ export default class Chat extends Component {
 		var answerText = check + " " + _this._question.answerText;
 		let uni = Math.round(Math.random() * 1000000);
 
-		var message = this.addMessage({"text" : answerText , "name" : "bot", "position" : "left", "date" : new Date(), "uniqueId" : uni, "image" : require('image!starIcon')  });
+		var message = this.addMessage({"text" : answerText , "name" : "Date Calculator", "position" : "left", "date" : new Date(), "uniqueId" : uni, "image" : require('image!starIcon')  });
 
 
 
@@ -243,7 +244,7 @@ export default class Chat extends Component {
 				ref={(c) => this._GiftedMessenger = c}
 
 				style={{
-					marginTop: 66 + STATUS_BAR_HEIGHT,
+					marginTop: 38 + STATUS_BAR_HEIGHT,
 				}}
 
 				autoFocus={false}
@@ -258,7 +259,7 @@ export default class Chat extends Component {
 
 				parseTest={true}
 				typingMessage={this.state.typingMessage}
-				disabled={this.state.answerTime ? false : true}
+				disabled={this.state.answerTime}
 
 				responseOne={this.state.responseUno}
 				responseTwo={this.state.responseDeuce}

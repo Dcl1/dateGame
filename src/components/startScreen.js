@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-native-button';
+import Video from 'react-native-video';
 
 import {
 	View,
@@ -16,25 +17,40 @@ module.exports = React.createClass({
 
 	render: function(){
 		return (
-			<View style={styles.screen}>
-			<View style={styles.container}>
-				<View style={styles.textArea}>
-					<Text style={styles.header}>
-						Test Your Dating Skills
-					</Text>
-					<Text style={styles.body}>
-						200 Men & 200 Women answered questions about their dating preferences. Answer 12 questions and see if you know your stuff? 
-					</Text>
+
+			<View style={styles.whole} >
+				<Video source={{uri: 'bg'}}
+					ref={(ref) => {
+						this.player = ref
+					}}
+					rate={1.0}
+					volume={0}
+					paused={false}
+					muted={true}
+					resizeMode="contain" 
+					repeat={true}
+					playInBackground={false}
+					playWhenInactive={false}
+					style={styles.screen}
+				/>
+				<View style={styles.container}>
+					<View style={styles.textArea}>
+						<Text style={styles.header}>
+							Test Your Dating Skills
+						</Text>
+						<Text style={styles.body}>
+							200 Men & 200 Women answered questions about their dating preferences. Answer 10 questions and see if you know your stuff? 
+						</Text>
+					</View>
+					<View style={styles.actionArea} >
+						<Button
+							style={styles.actionButton}
+							onPress={ () => Actions.ChooseScreen() }
+						>
+							Start Quiz
+						</Button>
+					</View>
 				</View>
-				<View style={styles.actionArea} >
-					<Button
-						style={styles.actionButton}
-						onPress={ () => Actions.ChooseScreen() }
-					>
-						Start Quiz
-					</Button>
-				</View>
-			</View>
 			</View>
 		);
 	}
@@ -45,9 +61,19 @@ module.exports = React.createClass({
 
 var styles = StyleSheet.create({
 
+	whole: {
+		flex: 1,
+		flexDirection: 'column',
+		backgroundColor: 'white'
+	},
+
 	screen: {
-		backgroundColor: 'white',
-		flex: 1
+		position: 'absolute',
+		top: 0,
+		left: 0,
+		bottom: 0,
+		right: 0,
+		opacity: 0.3
 	},
 
 	container: {
