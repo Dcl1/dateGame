@@ -39,7 +39,7 @@ module.exports = React.createClass({
 							Test Your Dating Skills
 						</Text>
 						<Text style={styles.body}>
-							200 Men & 200 Women answered questions about their dating preferences. Answer 10 questions and see if you know your stuff? 
+							185 Men & 112 Women answered questions about their dating preferences. Answer 10 questions and see if you know your stuff? 
 						</Text>
 					</View>
 					<View style={styles.actionArea} >
