@@ -18,6 +18,7 @@ import { Actions } from 'react-native-router-flux';
 
 import Questions from '../data/questions.json';
 import MenQuestions from '../data/menQuestions.json';
+import WomenQuestions from '../data/womenQuestions.json';
 
 
 export default class Chat extends Component {
@@ -110,7 +111,7 @@ export default class Chat extends Component {
 		if( gender === 'men' ){
 			_this._file = MenQuestions.questions;
 		} else {
-			_this._file = Questions.questions;
+			_this._file = WomenQuestions.questions;
 		}
 	}
 
