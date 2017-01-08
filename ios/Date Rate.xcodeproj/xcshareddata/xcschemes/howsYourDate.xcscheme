@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
                BuildableName = "howsYourDate.app"
-               BlueprintName = "howsYourDate"
-               ReferencedContainer = "container:howsYourDate.xcodeproj">
+               BlueprintName = "Date Rate"
+               ReferencedContainer = "container:Date Rate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,15 +29,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "howsYourDateTests.xctest"
-               BlueprintName = "howsYourDateTests"
-               ReferencedContainer = "container:howsYourDate.xcodeproj">
+               BuildableName = "Date RateTests.xctest"
+               BlueprintName = "Date RateTests"
+               ReferencedContainer = "container:Date Rate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "howsYourDateTests.xctest"
-               BlueprintName = "howsYourDateTests"
-               ReferencedContainer = "container:howsYourDate.xcodeproj">
+               BuildableName = "Date RateTests.xctest"
+               BlueprintName = "Date RateTests"
+               ReferencedContainer = "container:Date Rate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,15 +58,15 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "howsYourDate.app"
-            BlueprintName = "howsYourDate"
-            ReferencedContainer = "container:howsYourDate.xcodeproj">
+            BlueprintName = "Date Rate"
+            ReferencedContainer = "container:Date Rate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "howsYourDate.app"
-            BlueprintName = "howsYourDate"
-            ReferencedContainer = "container:howsYourDate.xcodeproj">
+            BlueprintName = "Date Rate"
+            ReferencedContainer = "container:Date Rate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -100,8 +100,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "howsYourDate.app"
-            BlueprintName = "howsYourDate"
-            ReferencedContainer = "container:howsYourDate.xcodeproj">
+            BlueprintName = "Date Rate"
+            ReferencedContainer = "container:Date Rate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
