@@ -13,53 +13,53 @@
 			"question" : "Do a majority of men prefer to pick up their date verses meet their date at a location?",
 			"answer" : 2,
 			"answerText" : "35% of men prefer to pick up their dates verses 53% of men you rather meet their dates at a loction. 12% of men prefer to picked up for their date.",
-			"option1" : "Yes a majority of men prefer to pick up their date",
-			"option2" : "no a majority of men prefer not to pick up their date verses meet their date at a location"
+			"option1" : "Yes. Prefer to pick up their date",
+			"option2" : "No. Meet their date at a location"
 		},
 		{
 			"id" : 3,
-			"question" : "If a guy was on a date and they were not clicking with their date, would the guy see the person for another date? ",
+			"question" : "If a date was not going well, would the average guy on another date with the same person? ",
 			"answer" : 1,
-			"answerText" : "Kinda .... 52% of men said they would go up to 2 to 3 dates with a person they did not click with on the first date",
-			"option1" : "Yes I believe most guys would go on another date with that person",
-			"option2" : "no I believe most guys would not go on another date with that person"
+			"answerText" : "Kinda .... 52% of men said they would go up to 2 to 3 dates with a person if the first date didn't go well",
+			"option1" : "Yes. Would go on another date with that person",
+			"option2" : "No. Would not go on another date with that person"
 		},
 		{
 			"id" : 4,
-			"question" : "On date if the couple cannot decided on a restaurant to eat at, would a majority of men make the final decision or prefer their date to make the final decision?",
+			"question" : "On a date if the couple cannot decided on a restaurant to eat at, would a majority of men make the final decision or prefer their date to make the final decision?",
 			"answer" : 1,
 			"answerText" : "62% of men would make the final decision",
-			"option1" : "Yes a majority of men would prefer to make the final decision",
-			"option2" : "No a majority of men would like their date to make the final decision "
+			"option1" : "Yes. Make the final decision",
+			"option2" : "No. Would like their date to make the final decision "
 		},
 		{
 			"id" : 5,
-			"question" : "Do a vast majority of men like to tell their friends about a date they are going on?",
+			"question" : "Do a VAST majority of men like to tell their friends about a date they are going on?",
 			"answer" : 2,
 			"answerText" : "Actually only 50% of men would tell their friends about a date. This is different than 85% of women would said they tell their friends about upcoming dates.",
-			"option1" : "Yes a vast majority of men tell their friends when they are going on a date",
-			"option2" : "No a vast majority of men do not tell their friends when they are going on a date"
+			"option1" : "Yes a vast majority of men tell their friends",
+			"option2" : "No a vast majority of men do not tell their friends"
 		},
 		{
 			"id" : 6,
 			"question" : "If the parents of a guy disapprove of the person they are dating, do you believe that guy will most likely stop dating that person, ",
 			"answer" : 2,
 			"answerText" : "81% of men would continue to date a person even if their parents disapprove",
-			"option1" : "I believe a majority of men would not continue to date that person ",
-			"option2" : "I believe a majority of men would continue to date that person"
+			"option1" : "No. Would NOT continue to date that person ",
+			"option2" : "Yes. Would continue to date that person"
 		},
 		{
 			"id" : 7,
 			"question" : "On a first date, would men rather know if there is a SECOND date or would men rather know about past relationships?",
 			"answer" : 1,
 			"answerText" : "55% of men would rather know if there is a SECOND date, but that leaves a close 45% that would want to know about past relationships",
-			"option1" : "A majority of men would rather know if there is a SECOND date",
-			"option2" : "A majority of men would rather know about past relationships"
+			"option1" : "Would rather know if there is a SECOND date",
+			"option2" : "Would rather know about past relationships"
 		},
 		{
 			"id" : 8,
-			"question" : "Do men believe that check at the end of a date should be split between the two people?",
-			"answer" : 2,
+			"question" : "Do men believe that the check at the end of a date should be split between the two people?",
+			"answer" : 1,
 			"answerText" : "64% of men believe they should pay for the check",
 			"option1" : "Yes men believe the check should be split evenly",
 			"option2" : "No men believe they should pay for the check at the end of the date"
@@ -69,8 +69,8 @@
 			"question" : "If the friends of a guy disapprove of their date, would they continue to see that person?",
 			"answer" : 2,
 			"answerText" : "88% of men would continue to see a person their friends disapprove of",
-			"option1" : "They would NOT continue to see that person regardless of the opinions of their friends",
-			"option2" : "They would continue to see that person regardless of the opinions of their friends"
+			"option1" : "No. They would NOT continue to see that person.",
+			"option2" : "Yes. They would continue to see that person."
 		},
 		{
 			"id" : 10,
@@ -90,7 +90,7 @@
 		},
 		{
 			"id" : 12,
-			"question" : "Do you believe the average man like to become physical on the first date?",
+			"question" : "Do you believe the average man likes to become physical on the first date?",
 			"answer" : 2,
 			"answerText" : "68% of men do NOT like to become physical on the first date",
 			"option1" : "Yes. Physical on the first date",
@@ -98,7 +98,7 @@
 		},
 		{
 			"id" : 13,
-			"question" : "Does a vast majority of men believe they are above average in the bedroom?",
+			"question" : "Does a VAST majority of men believe they are above average in the bedroom?",
 			"answer" : 1,
 			"answerText" : "75% of men believe they are above average in the bedroom. Only 50% of women thought the same",
 			"option1" : "Yes above average in the bedroom",
@@ -122,7 +122,7 @@
 		},
 		{
 			"id" : 12,
-			"question" : "When women were asked 'Have they ever dated somebody already in a relationship?', what do believe were their responses?",
+			"question" : "When men were asked 'Have they ever dated somebody who was already in a relationship?', what do believe was their responses?",
 			"answer" : 1,
 			"answerText" : "75% said they have dated somebody already in a relationship?",
 			"option1" : "Yes dated a person who was already in a relationship",
@@ -130,7 +130,7 @@
 		},
 		{
 			"id" : 13,
-			"question" : "If a date lied about their sexual history and was a virgin, what would the vast majority be offended??",
+			"question" : "If a date lied about their sexual history and was a virgin, would the majority of men be offended??",
 			"answer" : 2,
 			"answerText" : "68% of men said they would not be offended?",
 			"option1" : "Yes. Offended",
@@ -141,8 +141,8 @@
 			"question" : "If a date lied about their sexual history and had many past sexual encounters, what would be the average response?",
 			"answer" : 1,
 			"answerText" : "62% would not be offended",
-			"option1" : "Offended",
-			"option2" : "Not offended"
+			"option1" : "Yes. Offended",
+			"option2" : "No. Not offended"
 		},
 		{
 			"id" : 11,
@@ -164,7 +164,7 @@
 			"id" : 13,
 			"question" : "Would a vast majority of men date somebody 5 years older than themselves?",
 			"answer" : 1,
-			"answerText" : "Close to 82% of women expressed they would date somebody 5 years older than themselves",
+			"answerText" : "Close to 82% of men expressed they would date somebody 5 years older than themselves",
 			"option1" : "Yes. Date somebody 5 years older",
 			"option2" : "No. Would not date somebody 5 years older"
 		},
@@ -172,7 +172,7 @@
 			"id" : 14,
 			"question" : "Would a majority of men date somebody 5 years younger than themselves",
 			"answer" : 1,
-			"answerText" : "93% of women said they would not date somebody younger than them",
+			"answerText" : "93% of men said they would not date somebody younger than them",
 			"option1" : "Yes. Date somebody 5 years younger themselves",
 			"option2" : "No. Would not date somebody 5 years younger themselves"
 		},
@@ -181,24 +181,24 @@
 			"question" : "If a date lied about their age and was actually 3 years younger? Would the average man be offended?",
 			"answer" : 1,
 			"answerText" : "82% said they would continue to see that person ",
-			"option1" : "No. An average man would not be offended",
-			"option2" : "Yes. An average man would have been offended"
+			"option1" : "No. Would not be offended",
+			"option2" : "Yes. Would have been offended"
 		},
 		{
 			"id" : 13,
 			"question" : "If a date lied about their age and was actually 3 years older? Would the average woman be offended?",
 			"answer" : 2,
 			"answerText" : "64% said they would continue to see them.",
-			"option1" : "Yes. An average man would be offended",
-			"option2" : "No. An average man would not be offended"
+			"option1" : "Yes. Would be offended",
+			"option2" : "No. Would not be offended"
 		},
 		{
 			"id" : 14,
 			"question" : "If a man found out their date was poor. Do you believe the average man would want to go another date with that person?",
 			"answer" : 1,
 			"answerText" : "71% of man said they would go another date with that person",
-			"option1" : "Yes. The average man would go another date",
-			"option2" : "No. The average man would not go another date"
+			"option1" : "Yes. Would go another date",
+			"option2" : "No. Would not go another date"
 		},
 		{
 			"id" : 12,
@@ -213,8 +213,8 @@
 			"question" : "Would the average man wait 30 minutes for a late date?",
 			"answer" : 1,
 			"answerText" : "86% said they would wait 30 minutes for a late date",
-			"option1" : "Yes. The average man would wait 30 minutes",
-			"option2" : "No. The average man would not wait 30 minutes"
+			"option1" : "Yes. Would wait 30 minutes",
+			"option2" : "No. Would not wait 30 minutes"
 		},
 		{
 			"id" : 12,
@@ -226,7 +226,7 @@
 		},
 		{
 			"id" : 13,
-			"question" : "Would a vast majority of men go dancing on the first date?",
+			"question" : "Would a VAST majority of men go dancing on the first date?",
 			"answer" : 2,
 			"answerText" : "Only 50% of men would go dancing on the first date",
 			"option1" : "Yes. Go dancing on the first date",
@@ -251,8 +251,8 @@
 		{
 			"id" : 14,
 			"question" : "If a date did not graduate high school, would the average man consider it a negative or not care?",
-			"answer" : 1,
-			"answerText" : "81% of woman would NOT consider it a negative",
+			"answer" : 2,
+			"answerText" : "81% of man would NOT consider it a negative",
 			"option1" : "It is a negative",
 			"option2" : "It is not a negative"
 		},
@@ -278,7 +278,7 @@
 			"answer" : 2,
 			"answerText" : "65% prefer a date without a muscular build",
 			"option1" : "Muscular build",
-			"option2" : "No muscular build"
+			"option2" : "Non-muscular build"
 		},
 		{
 			"id" : 14,
@@ -290,7 +290,7 @@
 		},
 		{
 			"id" : 13,
-			"question" : "If date smelled bad, would the average woman let their date know?",
+			"question" : "If date smelled bad, would the average man let their date know?",
 			"answer" : 2,
 			"answerText" : "62% would not tell their date they smell bad",
 			"option1" : "Yes. Tell their date",
@@ -306,7 +306,7 @@
 		},
 		{
 			"id" : 14,
-			"question" : "Do you believe an average man need more than 1 dates to know if they like a person or just 1 date?",
+			"question" : "Do you believe an average man needs more than 1 dates to know if they like a person or just 1 date?",
 			"answer" : 1,
 			"answerText" : "95% of men need more than 1 date.",
 			"option1" : "Yes. More than 1 dates",
@@ -346,9 +346,9 @@
 		},
 		{
 			"id" : 14,
-			"question" : "Do most men consider themselves more attractive than the average woman? ",
+			"question" : "Do most men consider themselves more attractive than the average man? ",
 			"answer" : 1,
-			"answerText" : "68% of men consider themselves more attractive than the average woman.",
+			"answerText" : "68% of men consider themselves more attractive than the average man.",
 			"option1" : "Yes. More attractive",
 			"option2" : "No. Less attractive"
 		},
@@ -366,7 +366,7 @@
 			"answer" : 2,
 			"answerText" : "53% percent said their last date was met not online",
 			"option1" : "Most said they met their last date online",
-			"option2" : "Most said they met their last date not online"
+			"option2" : "Most said they met their last date NOT online"
 		},
 		{
 			"id" : 14,
@@ -390,7 +390,7 @@
 			"answer" : 1,
 			"answerText" : "61% of men prefer a 'Sense of humor' over 'Good hygiene' ",
 			"option1" : "Yes. Prefer a 'Sense of humor' over 'Good hygiene' ",
-			"option2" : "No. Do not prefer a 'Sense of humor' "
+			"option2" : "No. Do not prefer a 'Sense of humor' over 'Good hygiene' "
 		},
 		{
 			"id" : 14,
@@ -466,7 +466,7 @@
 		},
 		{
 			"id" : 14,
-			"question" : "On average which does a man prefer her partner to have?",
+			"question" : "On average which does a man prefer his partner to have?",
 			"answer" : 2,
 			"answerText" : "58% of men said they prefer their partner to have a job",
 			"option1" : "Higher education degree",

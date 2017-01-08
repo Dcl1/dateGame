@@ -394,11 +394,11 @@
 		},
 		{
 			"id" : 13,
-			"question" : " Would a VAST majority of women prefer a mate with a 'Sense of humor' vs 'Good hygiene'? ",
+			"question" : " Would a VAST majority of women prefer a mate with a 'Sense of humor' over 'Good hygiene'? ",
 			"answer" : 2,
-			"answerText" : "50% of women prefer 'Good hygiene' over 'Sense of humor' ",
-			"option1" : "Yes. Prefer a 'Sense of humor' over 'Good hygiene' ",
-			"option2" : "No. Prefer a 'Good hygiene' "
+			"answerText" : "Only 50% of women prefer 'Sense of humor' over  'Good hygiene'",
+			"option1" : "Yes. A vast majority prefer a 'Sense of humor' over 'Good hygiene' ",
+			"option2" : "No. A vast majority don't prefer a 'Sense of humor' over 'Good hygiene' ",
 		},
 		{
 			"id" : 14,
@@ -412,7 +412,7 @@
 			"id" : 13,
 			"question" : " What is more important to women: 'Being healthy' vs 'Being empathetic' ",
 			"answer" : 2,
-			"answerText" : "75% belive being empathetic is more important",
+			"answerText" : "75% believe being empathetic is more important",
 			"option1" : "Being healthy",
 			"option2" : "Being empathetic"
 		},
@@ -427,8 +427,8 @@
 		{
 			"id" : 13,
 			"question" : " What is more important to women: 'The woman is sexually attracted to their partner' vs 'Their partner is sexually attracted to the woman' ",
-			"answer" : 1,
-			"answerText" : "63% of woman prefer somebody attracted to them vs themselves attracted to their partner",
+			"answer" : 2,
+			"answerText" : "63% of woman prefer somebody attracted to themselves vs themselves attracted to their partner",
 			"option1" : "The woman is sexually attracted to their partner",
 			"option2" : "Their partner is sexually attracted to the woman"
 		},
@@ -466,7 +466,7 @@
 		},
 		{
 			"id" : 14,
-			"question" : "On average which does a woman prefer her partner to have?",
+			"question" : "On average which does a woman prefer her partner to have: 'A job' or 'Higher education degree'?",
 			"answer" : 2,
 			"answerText" : "77% of women said they prefer their partner to have a job",
 			"option1" : "Higher education degree",
