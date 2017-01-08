@@ -12,65 +12,65 @@
 			"id" : 2,
 			"question" : "Do a majority of women prefer to be picked up for their date verses meet their date at a location?",
 			"answer" : 2,
-			"answerText" : "85% of women would rather meet their date at the location for the date",
-			"option1" : "Yes a majority of women prefer to be picked up for their date",
-			"option2" : "no a majority of women prefer not to be picked up for their date verses meet their date at a location"
+			"answerText" : "85% of women would rather meet their date at the location of the date",
+			"option1" : "Yes. Picked up for their date",
+			"option2" : "No. Meet their date at a location"
 		},
 		{
 			"id" : 3,
-			"question" : "Would a majority of women give their date more than one date if they do not click?",
+			"question" : "Would a majority of women give their date a second chance if the first date did not go well?",
 			"answer" : 2,
-			"answerText" : "Kinda .... 44% of women will only give one date if they did not click with the person",
-			"option1" : "Yes I believe most women would go on another date with that person",
-			"option2" : "no I believe most women would not go on another date with that person"
+			"answerText" : "Kinda .... 44% of women said they would not give a second chance.",
+			"option1" : "Yes. Would go on another date with that person",
+			"option2" : "No. Would not go on another date with that person"
 		},
 		{
 			"id" : 4,
 			"question" : "On a date if the couple cannot decided on a restaurant to eat at, would a majority of women make the final decision or prefer their date to make the final decision?",
 			"answer" : 1,
 			"answerText" : "56% of women would make the final decision",
-			"option1" : "Yes a majority of women would prefer to make the final decision",
-			"option2" : "No a majority of women would like their date to make the final decision "
+			"option1" : "Yes. Would prefer to make the final decision",
+			"option2" : "No. Would like their date to make the final decision "
 		},
 		{
 			"id" : 5,
-			"question" : "Do a vast majority of women like to tell their friends about a date they are going on?",
+			"question" : "Does a VAST majority of women like to tell their friends about a date they are going on?",
 			"answer" : 1,
-			"answerText" : "85% of women would said they tell their friends about upcoming dates. This is different than 50% of men, who would tell their friends about a date. ",
-			"option1" : "Yes a vast majority of women tell their friends when they are going on a date",
-			"option2" : "No a vast majority of women do not tell their friends when they are going on a date"
+			"answerText" : "85% of women said they tell their friends about upcoming dates. This is different than 50% of men, who would tell their friends about a date. ",
+			"option1" : "Yes. Vast majority tell their friends when they are going on a date",
+			"option2" : "No. Vast majority do not tell their friends when they are going on a date"
 		},
 		{
 			"id" : 6,
 			"question" : "If the parents of a woman disapprove of the person they are dating, do you believe that woman will most likely stop dating that person? ",
 			"answer" : 2,
 			"answerText" : "59% of women would continue to see that person. 81% of men would continue to date a person even if their parents disapprove",
-			"option1" : "I believe a majority of women would not continue to date that person ",
-			"option2" : "I believe a majority of women would continue to date that person"
+			"option1" : "No. Would not continue to date that person",
+			"option2" : "Yes. Would continue to date that person"
 		},
 		{
 			"id" : 7,
 			"question" : "On a first date, would women rather know if there is a SECOND date or would women rather know about past relationships?",
 			"answer" : 1,
-			"answerText" : "59% of women would rather know if there is a SECOND date, but that leaves a close 45% that would want to know about past relationships",
-			"option1" : "A majority of women would rather know if there is a SECOND date",
-			"option2" : "A majority of women would rather know about past relationships"
+			"answerText" : "59% of women would rather know if there is a SECOND date.",
+			"option1" : "Know if there is a SECOND date",
+			"option2" : "Know about past relationships"
 		},
 		{
 			"id" : 8,
-			"question" : "Do women believe that check at the end of a date should be split between the two people?",
+			"question" : "Do women believe that the check at the end of a date should be split between the two people?",
 			"answer" : 1,
 			"answerText" : "52% of women believe the check should be split",
-			"option1" : "Yes women believe the check should be split evenly",
-			"option2" : "No women believe their date should pay for the date"
+			"option1" : "Yes. Check should be split evenly",
+			"option2" : "No. Their date should pay for the date"
 		},
 		{
 			"id" : 9,
 			"question" : "If the friends of a woman disapprove of their date, would they continue to see that person?",
 			"answer" : 2,
 			"answerText" : "81% of women would continue to see a person their friends disapprove of",
-			"option1" : "They would NOT continue to see that person regardless of the opinions of their friends",
-			"option2" : "They would continue to see that person regardless of the opinions of their friends"
+			"option1" : "Would NOT continue regardless of the opinions of their friends",
+			"option2" : "Would continue regardless of the opinions of their friends"
 		},
 		{
 			"id" : 10,
@@ -82,11 +82,11 @@
 		},
 		{
 			"id" : 11,
-			"question" : "Do a vast majority of women play hard to get?",
+			"question" : "Does a VAST majority of women play hard to get?",
 			"answer" : 2,
 			"answerText" : "Only 50% of women play hard to get",
-			"option1" : "Yes a vast majority play hard to get",
-			"option2" : "No a vast majority do not play hard to get"
+			"option1" : "Yes. Vast majority play hard to get",
+			"option2" : "No. Vast majority do not play hard to get"
 		},
 		{
 			"id" : 12,
@@ -101,36 +101,36 @@
 			"question" : "Does a vast majority of women believe they are above average in the bedroom?",
 			"answer" : 2,
 			"answerText" : "Only 50% of women believe they are above average in the bedroom",
-			"option1" : "Yes above average in the bedroom",
-			"option2" : "No not above average in the bedroom"
+			"option1" : "Yes. Above average in the bedroom",
+			"option2" : "No. Not above average in the bedroom"
 		},
 		{
 			"id" : 14,
 			"question" : "Does a majority of women consider themselves flirty?",
 			"answer" : 1,
 			"answerText" : "56% of women consider themselves flirty",
-			"option1" : "Yes they consider themselves flirty",
-			"option2" : "No they do not consider themselves flirty"
+			"option1" : "Yes. Consider themselves flirty",
+			"option2" : "No. Do not consider themselves flirty"
 		},
 		{
 			"id" : 11,
 			"question" : "Have a majority of women ever made an excuse to leave a date early?",
 			"answer" : 2,
 			"answerText" : "56% of women said they have made an excuse to leave a date early",
-			"option1" : "No never made an excuse to leave a date early",
-			"option2" : "Yes made an excuse to leave a date early"
+			"option1" : "No. Never made an excuse to leave a date early",
+			"option2" : "Yes. Made an excuse to leave a date early"
 		},
 		{
 			"id" : 12,
-			"question" : "When women were asked 'Have they ever dated somebody already in a relationship?', what do believe were their responses?",
+			"question" : "When women were asked 'Have they ever dated somebody already in a relationship?', what do believe was their response?",
 			"answer" : 2,
 			"answerText" : "81% said they have never dated somebody in a relationship. 75% of men said the opposite",
-			"option1" : "Yes dated a person who was already in a relationship",
-			"option2" : "No never dated a person who was already in a relationship"
+			"option1" : "Yes. Dated a person who was already in a relationship",
+			"option2" : "No. Never dated a person who was already in a relationship"
 		},
 		{
 			"id" : 13,
-			"question" : "If a date lied about their sexual history and was a virgin, what would the vast majority be offended??",
+			"question" : "If a date lied about their sexual history and was a virgin, what would the VAST majority of women be offended??",
 			"answer" : 2,
 			"answerText" : "A vast majority would not be offended",
 			"option1" : "Yes. Offended",
@@ -141,8 +141,8 @@
 			"question" : "If a date lied about their sexual history and had many past sexual encounters, what would be the average response?",
 			"answer" : 1,
 			"answerText" : "69% would be offended",
-			"option1" : "Offended",
-			"option2" : "Not offended"
+			"option1" : "Yes. Offended",
+			"option2" : "No. Not offended"
 		},
 		{
 			"id" : 11,
@@ -150,14 +150,14 @@
 			"answer" : 2,
 			"answerText" : "56% of women have not lied on a date",
 			"option1" : "Yes",
-			"option2" : "no"
+			"option2" : "No"
 		},
 		{
 			"id" : 12,
 			"question" : "When women were asked if they thought their date has to dress 'fashionably', what do you believe their response was?",
 			"answer" : 2,
 			"answerText" : "50% of women responded that dressing 'fashionably' was not important",
-			"option1" : "A vast majority of women believe their date needs to dress 'fashionable'",
+			"option1" : "A vast majority of women believe their date needs to dress 'fashionably'",
 			"option2" : "Only some women believe it is important for their date to dress 'fashionably'"
 		},
 		{
@@ -181,40 +181,40 @@
 			"question" : "If a date lied about their age and was actually 3 years younger? Would the average woman be offended?",
 			"answer" : 2,
 			"answerText" : "83% said they would not continue to see that person ",
-			"option1" : "No. An average woman would not be offended",
-			"option2" : "Yes. An average woman would have been offended"
+			"option1" : "No. Would NOT be offended",
+			"option2" : "Yes. Would have been offended"
 		},
 		{
 			"id" : 13,
 			"question" : "If a date lied about their age and was actually 3 years older? Would the average woman be offended?",
 			"answer" : 1,
 			"answerText" : "67% said they would not continue to see them.",
-			"option1" : "Yes. An average woman would be offended",
-			"option2" : "no. An average woman would have been offended"
+			"option1" : "Yes. Would be offended",
+			"option2" : "No. Would NOT have been offended"
 		},
 		{
 			"id" : 14,
 			"question" : "If a woman found out their date was poor. Do you believe the average woman would want to go another date with that person?",
 			"answer" : 1,
 			"answerText" : "83% of woman said they would go another date with that person",
-			"option1" : "Yes. The average woman would go another date",
-			"option2" : "No. The average woman would not go another date"
+			"option1" : "Yes. Would go another date",
+			"option2" : "No. Would NOT go another date"
 		},
 		{
 			"id" : 12,
 			"question" : "If a woman found out their date had no friends. Do you believe the average woman would want to go another date with that person?",
 			"answer" : 2,
 			"answerText" : "58% of women said they would not go another date with that person",
-			"option1" : "Yes. The average woman would go on another date",
-			"option2" : "No. The average woman would not go on another date"
+			"option1" : "Yes. Would go on another date",
+			"option2" : "No. Would NOT go on another date"
 		},
 		{
 			"id" : 13,
 			"question" : "Would the average woman wait 30 minutes for a late date?",
 			"answer" : 1,
 			"answerText" : "58% said they would wait 30 minutes for a late date",
-			"option1" : "Yes. The average woman would wait 30 minutes",
-			"option2" : "No. The average woman would not wait 30 minutes"
+			"option1" : "Yes. Would wait 30 minutes",
+			"option2" : "No. Would not wait 30 minutes"
 		},
 		{
 			"id" : 14,
@@ -250,7 +250,7 @@
 		},
 		{
 			"id" : 13,
-			"question" : "If a woman found a date boring, do believe the average woman would go on anotehr date with that person?",
+			"question" : "If a woman found a date boring, do believe the average woman would go on another date with that person?",
 			"answer" : 2,
 			"answerText" : "57% of women would go another date",
 			"option1" : "Yes. Go another date",
@@ -268,7 +268,7 @@
 			"id" : 13,
 			"question" : "Would the average woman date a friend's ex?",
 			"answer" : 2,
-			"answerText" : "Would not date a friend's ex",
+			"answerText" : "83%. Would not date a friend's ex",
 			"option1" : "Yes. Date a friend's ex",
 			"option2" : "No. Would not date a friend's ex"
 		},
@@ -286,7 +286,7 @@
 			"answer" : 2,
 			"answerText" : "57% prefer a date without a muscular build",
 			"option1" : "Muscular build",
-			"option2" : "No muscular build"
+			"option2" : "Non-muscular build"
 		},
 		{
 			"id" : 14,
@@ -294,11 +294,11 @@
 			"answer" : 1,
 			"answerText" : "86% of women get nervous before a date",
 			"option1" : "Yes. Get nervous before a date",
-			"option2" : "No. Don't get nervous before a date"
+			"option2" : "No. Do not get nervous before a date"
 		},
 		{
 			"id" : 13,
-			"question" : "If date smelled bad, would the average woman let their date know?",
+			"question" : "If a date smelled bad, would the average woman let their date know?",
 			"answer" : 2,
 			"answerText" : "86% would not tell their date they smell bad",
 			"option1" : "Yes. Tell their date",
@@ -362,7 +362,7 @@
 		},
 		{
 			"id" : 14,
-			"question" : "Who many people does the average woman date at one time?",
+			"question" : "How many people does the average woman date at one time?",
 			"answer" : 2,
 			"answerText" : "83% said just one person at a time",
 			"option1" : "2 to 3 people at one time",
@@ -370,9 +370,9 @@
 		},
 		{
 			"id" : 13,
-			"question" : "When woman were asked if their last date was arranged online or not online, what do you believe was their response?",
+			"question" : "When women were asked if their last date was arranged online or not online, what do you believe was their response?",
 			"answer" : 2,
-			"answerText" : "59% percent said their last date was met online",
+			"answerText" : "59% percent said their last date was NOT met online",
 			"option1" : "Most said they met their last date online",
 			"option2" : "Most said they met their last date not online"
 		},
@@ -380,7 +380,7 @@
 			"id" : 14,
 			"question" : "Would the average woman be comfortable dating somebody who made 4X the income of herself?",
 			"answer" : 1,
-			"answerText" : "92%! of women said they would be comfortable dating someobody who made 4X their income",
+			"answerText" : "92% of women said they would be comfortable dating someobody who made 4X their income",
 			"option1" : "Yes. Comfortable",
 			"option2" : "No. Uncomfortable"
 		},
@@ -394,11 +394,11 @@
 		},
 		{
 			"id" : 13,
-			"question" : " Would a vast majority of women prefer a mate with a 'Sense of humor' vs 'Good hygiene'? ",
+			"question" : " Would a VAST majority of women prefer a mate with a 'Sense of humor' vs 'Good hygiene'? ",
 			"answer" : 2,
 			"answerText" : "50% of women prefer 'Good hygiene' over 'Sense of humor' ",
 			"option1" : "Yes. Prefer a 'Sense of humor' over 'Good hygiene' ",
-			"option2" : "No. Not prefer a 'Sense of humor' "
+			"option2" : "No. Prefer a 'Good hygiene' "
 		},
 		{
 			"id" : 14,
