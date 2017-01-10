@@ -16,7 +16,6 @@ import GiftedMessenger from 'react-native-gifted-messenger';
 var STATUS_BAR_HEIGHT = Navigator.NavigationBar.Styles.General.StatusBarHeight;
 import { Actions } from 'react-native-router-flux';
 
-import Questions from '../data/questions.json';
 import MenQuestions from '../data/menQuestions.json';
 import WomenQuestions from '../data/womenQuestions.json';
 
