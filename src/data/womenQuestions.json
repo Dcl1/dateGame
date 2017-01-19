@@ -1,537 +1,771 @@
 {
+
 	"questions" : [
-		{
-			"id" : 1,
-			"question" : "Do a majority of women expect to spend more or less than $50 on a first date?",
-			"answer" : 1,
-			"answerText" : "93% of women said they expect to spend less than $50 on a first date",
-			"option1" : "Spend less than $50 on the first date",
-			"option2" : "Spend more than $50 on the first date"
-		},
-		{
-			"id" : 2,
-			"question" : "Do a majority of women prefer to be picked up for their date verses meet their date at a location?",
-			"answer" : 2,
-			"answerText" : "85% of women would rather meet their date at the location of the date",
-			"option1" : "Yes. Picked up for their date",
-			"option2" : "No. Meet their date at a location"
-		},
-		{
-			"id" : 3,
-			"question" : "Would a majority of women give their date a second chance if the first date did not go well?",
-			"answer" : 2,
-			"answerText" : "Kinda .... 44% of women said they would not give a second chance.",
-			"option1" : "Yes. Would go on another date with that person",
-			"option2" : "No. Would not go on another date with that person"
-		},
-		{
-			"id" : 4,
-			"question" : "On a date if the couple cannot decided on a restaurant to eat at, would a majority of women make the final decision or prefer their date to make the final decision?",
-			"answer" : 1,
-			"answerText" : "56% of women would make the final decision",
-			"option1" : "Yes. Would prefer to make the final decision",
-			"option2" : "No. Would like their date to make the final decision "
-		},
-		{
-			"id" : 5,
-			"question" : "Does a VAST majority of women like to tell their friends about a date they are going on?",
-			"answer" : 1,
-			"answerText" : "85% of women said they tell their friends about upcoming dates. This is different than 50% of men, who would tell their friends about a date. ",
-			"option1" : "Yes. Vast majority tell their friends when they are going on a date",
-			"option2" : "No. Vast majority do not tell their friends when they are going on a date"
-		},
-		{
-			"id" : 6,
-			"question" : "If the parents of a woman disapprove of the person they are dating, do you believe that woman will most likely stop dating that person? ",
-			"answer" : 2,
-			"answerText" : "59% of women would continue to see that person. 81% of men would continue to date a person even if their parents disapprove",
-			"option1" : "No. Would not continue to date that person",
-			"option2" : "Yes. Would continue to date that person"
-		},
-		{
-			"id" : 7,
-			"question" : "On a first date, would women rather know if there is a SECOND date or would women rather know about past relationships?",
-			"answer" : 1,
-			"answerText" : "59% of women would rather know if there is a SECOND date.",
-			"option1" : "Know if there is a SECOND date",
-			"option2" : "Know about past relationships"
-		},
-		{
-			"id" : 8,
-			"question" : "Do women believe that the check at the end of a date should be split between the two people?",
-			"answer" : 1,
-			"answerText" : "52% of women believe the check should be split",
-			"option1" : "Yes. Check should be split evenly",
-			"option2" : "No. Their date should pay for the date"
-		},
-		{
-			"id" : 9,
-			"question" : "If the friends of a woman disapprove of their date, would they continue to see that person?",
-			"answer" : 2,
-			"answerText" : "81% of women would continue to see a person their friends disapprove of",
-			"option1" : "Would NOT continue regardless of the opinions of their friends",
-			"option2" : "Would continue regardless of the opinions of their friends"
-		},
-		{
-			"id" : 10,
-			"question" : "Do a majority of women consider themselves funny?",
-			"answer" : 1,
-			"answerText" : "75% of women consider themselves funny",
-			"option1" : "Yes a majority of women consider themselves funny",
-			"option2" : "No a majority of women do not consider themselves funny"
-		},
-		{
-			"id" : 11,
-			"question" : "Does a VAST majority of women play hard to get?",
-			"answer" : 2,
-			"answerText" : "Only 50% of women play hard to get",
-			"option1" : "Yes. Vast majority play hard to get",
-			"option2" : "No. Vast majority do not play hard to get"
-		},
-		{
-			"id" : 12,
-			"question" : "Do you believe the average woman likes to become physical on the first date?",
-			"answer" : 2,
-			"answerText" : "19% of women like to become physical on the first date",
-			"option1" : "Yes. Physical on the first date",
-			"option2" : "No. Does not become physical"
-		},
-		{
-			"id" : 13,
-			"question" : "Does a vast majority of women believe they are above average in the bedroom?",
-			"answer" : 2,
-			"answerText" : "Only 50% of women believe they are above average in the bedroom",
-			"option1" : "Yes. Above average in the bedroom",
-			"option2" : "No. Not above average in the bedroom"
-		},
-		{
-			"id" : 14,
-			"question" : "Does a majority of women consider themselves flirty?",
-			"answer" : 1,
-			"answerText" : "56% of women consider themselves flirty",
-			"option1" : "Yes. Consider themselves flirty",
-			"option2" : "No. Do not consider themselves flirty"
-		},
-		{
-			"id" : 11,
-			"question" : "Have a majority of women ever made an excuse to leave a date early?",
-			"answer" : 2,
-			"answerText" : "56% of women said they have made an excuse to leave a date early",
-			"option1" : "No. Never made an excuse to leave a date early",
-			"option2" : "Yes. Made an excuse to leave a date early"
-		},
-		{
-			"id" : 12,
-			"question" : "When women were asked 'Have they ever dated somebody already in a relationship?', what do believe was their response?",
-			"answer" : 2,
-			"answerText" : "81% said they have never dated somebody in a relationship. 75% of men said the opposite",
-			"option1" : "Yes. Dated a person who was already in a relationship",
-			"option2" : "No. Never dated a person who was already in a relationship"
-		},
-		{
-			"id" : 13,
-			"question" : "If a date lied about their sexual history and was a virgin, what would the VAST majority of women be offended??",
-			"answer" : 2,
-			"answerText" : "A vast majority would not be offended",
-			"option1" : "Yes. Offended",
-			"option2" : "No. Not offended"
-		},
-		{
-			"id" : 14,
-			"question" : "If a date lied about their sexual history and had many past sexual encounters, what would be the average response?",
-			"answer" : 1,
-			"answerText" : "69% would be offended",
-			"option1" : "Yes. Offended",
-			"option2" : "No. Not offended"
-		},
-		{
-			"id" : 11,
-			"question" : "Have a majority of women lied on a date?",
-			"answer" : 2,
-			"answerText" : "56% of women have not lied on a date",
-			"option1" : "Yes",
-			"option2" : "No"
-		},
-		{
-			"id" : 12,
-			"question" : "When women were asked if they thought their date has to dress 'fashionably', what do you believe their response was?",
-			"answer" : 2,
-			"answerText" : "50% of women responded that dressing 'fashionably' was not important",
-			"option1" : "A vast majority of women believe their date needs to dress 'fashionably'",
-			"option2" : "Only some women believe it is important for their date to dress 'fashionably'"
-		},
-		{
-			"id" : 13,
-			"question" : "Would a vast majority of women date somebody 5 years older than themselves?",
-			"answer" : 1,
-			"answerText" : "Close to 100% of women expressed they would date somebody 5 years older than themselves",
-			"option1" : "Yes. Date somebody 5 years older",
-			"option2" : "No. Would not date somebody 5 years older"
-		},
-		{
-			"id" : 14,
-			"question" : "Would a vast majority of women date somebody 5 years younger than themselves",
-			"answer" : 2,
-			"answerText" : "58% of women said they would not date somebody younger than them",
-			"option1" : "Yes. Date somebody 5 years younger themselves",
-			"option2" : "No. Would not date somebody 5 years younger themselves"
-		},
-		{
-			"id" : 12,
-			"question" : "If a date lied about their age and was actually 3 years younger? Would the average woman be offended?",
-			"answer" : 2,
-			"answerText" : "83% said they would not continue to see that person ",
-			"option1" : "No. Would NOT be offended",
-			"option2" : "Yes. Would have been offended"
-		},
-		{
-			"id" : 13,
-			"question" : "If a date lied about their age and was actually 3 years older? Would the average woman be offended?",
-			"answer" : 1,
-			"answerText" : "67% said they would not continue to see them.",
-			"option1" : "Yes. Would be offended",
-			"option2" : "No. Would NOT have been offended"
-		},
-		{
-			"id" : 14,
-			"question" : "If a woman found out their date was poor. Do you believe the average woman would want to go another date with that person?",
-			"answer" : 1,
-			"answerText" : "83% of woman said they would go another date with that person",
-			"option1" : "Yes. Would go another date",
-			"option2" : "No. Would NOT go another date"
-		},
-		{
-			"id" : 12,
-			"question" : "If a woman found out their date had no friends. Do you believe the average woman would want to go another date with that person?",
-			"answer" : 2,
-			"answerText" : "58% of women said they would not go another date with that person",
-			"option1" : "Yes. Would go on another date",
-			"option2" : "No. Would NOT go on another date"
-		},
-		{
-			"id" : 13,
-			"question" : "Would the average woman wait 30 minutes for a late date?",
-			"answer" : 1,
-			"answerText" : "58% said they would wait 30 minutes for a late date",
-			"option1" : "Yes. Would wait 30 minutes",
-			"option2" : "No. Would not wait 30 minutes"
-		},
-		{
-			"id" : 14,
-			"question" : "Would the average woman date somebody shorter than themselves?",
-			"answer" : 2,
-			"answerText" : "59% of woman said they would NOT date somebody shorter than themselves?",
-			"option1" : "Yes. Date somebody shorter themselves ",
-			"option2" : "No. Would not date somebody shorter themselves"
-		},
-		{
-			"id" : 12,
-			"question" : "If the friends of a woman expressed their date was not attractive, would the average woman continue to go the date?",
-			"answer" : 1,
-			"answerText" : "75% of woman would continue to go on the date",
-			"option1" : "Yes. Continue to go on the date",
-			"option2" : "No. Not continue to go on the date"
-		},
-		{
-			"id" : 13,
-			"question" : "Would a majority of women go dancing on the first date?",
-			"answer" : 1,
-			"answerText" : "57% Would go dancing on the first date",
-			"option1" : "Yes. Go dancing on the first date",
-			"option2" : "No. Would not go dancing on the first date"
-		},
-		{
-			"id" : 14,
-			"question" : "Would the average woman eat dinner with their date's family, as a first date?",
-			"answer" : 2,
-			"answerText" : "86% of women said they would NOT eat dinner with the family as a first date",
-			"option1" : "Yes. First date with the date's family",
-			"option2" : "No. No first date with the date's family"
-		},
-		{
-			"id" : 13,
-			"question" : "If a woman found a date boring, do believe the average woman would go on another date with that person?",
-			"answer" : 2,
-			"answerText" : "57% of women would go another date",
-			"option1" : "Yes. Go another date",
-			"option2" : "No. Would not go another date"
-		},
-		{
-			"id" : 14,
-			"question" : "If a date did not graduate high school, would the average woman consider it a negative or not care?",
-			"answer" : 1,
-			"answerText" : "71% of woman would consider it a negative",
-			"option1" : "It is a negative",
-			"option2" : "It is not a negative"
-		},
-		{
-			"id" : 13,
-			"question" : "Would the average woman date a friend's ex?",
-			"answer" : 2,
-			"answerText" : "83%. Would not date a friend's ex",
-			"option1" : "Yes. Date a friend's ex",
-			"option2" : "No. Would not date a friend's ex"
-		},
-		{
-			"id" : 14,
-			"question" : "If a woman embarrassed herself on a date and you laughed at them, would the average woman be offended?",
-			"answer" : 1,
-			"answerText" : "57% of woman said they would be offended",
-			"option1" : "Yes. Would be offended",
-			"option2" : "No. Would not be offended"
-		},
-		{
-			"id" : 13,
-			"question" : "Do women prefer to date a person with muscular or non-muscular build?",
-			"answer" : 2,
-			"answerText" : "57% prefer a date without a muscular build",
-			"option1" : "Muscular build",
-			"option2" : "Non-muscular build"
-		},
-		{
-			"id" : 14,
-			"question" : "Does the average woman get nervous before a date?",
-			"answer" : 1,
-			"answerText" : "86% of women get nervous before a date",
-			"option1" : "Yes. Get nervous before a date",
-			"option2" : "No. Do not get nervous before a date"
-		},
-		{
-			"id" : 13,
-			"question" : "If a date smelled bad, would the average woman let their date know?",
-			"answer" : 2,
-			"answerText" : "86% would not tell their date they smell bad",
-			"option1" : "Yes. Tell their date",
-			"option2" : "No. Would not tell their date"
-		},
-		{
-			"id" : 14,
-			"question" : "Have a majority of women lied to cancel a date?",
-			"answer" : 1,
-			"answerText" : "57% of women have lied to cancel a date",
-			"option1" : "Yes. Lied to cancel a date",
-			"option2" : "No. Never lied to cancel a date"
-		},
-		{
-			"id" : 14,
-			"question" : "Do you believe an average woman needs more than 1 dates to know if they like a person or just 1 date?",
-			"answer" : 1,
-			"answerText" : "58% of woman need more than 1 date but that means 42% of woman decide on the first date",
-			"option1" : "Yes. More than 1 dates",
-			"option2" : "No. Just 1 date"
-		},
-		{
-			"id" : 13,
-			"question" : "What is more important to women: 'Attraction' vs 'Intelligence' ",
-			"answer" : 2,
-			"answerText" : "67% of women said intelligence is more important",
-			"option1" : "Attraction",
-			"option2" : "Intelligence"
-		},
-		{
-			"id" : 14,
-			"question" : "Would most women date somebody who smokes cigarettes?",
-			"answer" : 2,
-			"answerText" : "67% of women would not date somebody who smokes cigarettes",
-			"option1" : "Yes to somebody who smokes cigarettes",
-			"option2" : "No to somebody who smokes cigarettes"
-		},
-		{
-			"id" : 14,
-			"question" : " What is more important to women: 'Gets along with your family ' vs 'Gets along with your friends' ",
-			"answer" : 1,
-			"answerText" : "66% of women said getting along with her family is more important",
-			"option1" : "Gets along with her family",
-			"option2" : "Gets along with her friends"
-		},
-		{
-			"id" : 13,
-			"question" : "Do most women consider themselves an above average dater?",
-			"answer" : 1,
-			"answerText" : "69% of women belive they are above average daters",
-			"option1" : "Yes. Above average",
-			"option2" : "No. Not above average"
-		},
-		{
-			"id" : 14,
-			"question" : "Do most women consider themselves more attractive than the average woman? ",
-			"answer" : 1,
-			"answerText" : "58% of women consider themselves more attractive than the average woman.",
-			"option1" : "Yes. More attractive",
-			"option2" : "No. Less attractive"
-		},
-		{
-			"id" : 14,
-			"question" : "How many people does the average woman date at one time?",
-			"answer" : 2,
-			"answerText" : "83% said just one person at a time",
-			"option1" : "2 to 3 people at one time",
-			"option2" : "Just one person at a time"
-		},
-		{
-			"id" : 13,
-			"question" : "When women were asked if their last date was arranged online or not online, what do you believe was their response?",
-			"answer" : 2,
-			"answerText" : "59% percent said their last date was NOT met online",
-			"option1" : "Most said they met their last date online",
-			"option2" : "Most said they met their last date not online"
-		},
-		{
-			"id" : 14,
-			"question" : "Would the average woman be comfortable dating somebody who made 4X the income of herself?",
-			"answer" : 1,
-			"answerText" : "92% of women said they would be comfortable dating someobody who made 4X their income",
-			"option1" : "Yes. Comfortable",
-			"option2" : "No. Uncomfortable"
-		},
-		{
-			"id" : 14,
-			"question" : "Do you believe the average woman would be comfortable taking $100 to go on a date with somebody that repulsed them? ",
-			"answer" : 2,
-			"answerText" : "75% said they would be uncomfortable",
-			"option1" : "Yes. comfortable",
-			"option2" : "No. Uncomfortable"
-		},
-		{
-			"id" : 13,
-			"question" : " Would a VAST majority of women prefer a mate with a 'Sense of humor' over 'Good hygiene'? ",
-			"answer" : 2,
-			"answerText" : "Only 50% of women prefer 'Sense of humor' over  'Good hygiene'",
-			"option1" : "Yes. A vast majority prefer a 'Sense of humor' over 'Good hygiene' ",
-			"option2" : "No. A vast majority don't prefer a 'Sense of humor' over 'Good hygiene' ",
-		},
-		{
-			"id" : 14,
-			"question" : " What is more important to women: 'Their mate's religion' vs 'Their mate's education level' ",
-			"answer" : 2,
-			"answerText" : "75% believe education level is more important",
-			"option1" : "Religion",
-			"option2" : "Education level"
-		},
-		{
-			"id" : 13,
-			"question" : " What is more important to women: 'Being healthy' vs 'Being empathetic' ",
-			"answer" : 2,
-			"answerText" : "75% believe being empathetic is more important",
-			"option1" : "Being healthy",
-			"option2" : "Being empathetic"
-		},
-		{
-			"id" : 14,
-			"question" : " What is more attractive to a woman: 'Somebody who can stand up for themselves' vs 'Make people around them comfortable' ",
-			"answer" : 1,
-			"answerText" : "88% find it attractive when their date can make people around them comfortable ",
-			"option1" : "Make people around them comfortable",
-			"option2" : "Stand up for themselves"
-		},
-		{
-			"id" : 13,
-			"question" : " What is more important to women: 'The woman is sexually attracted to their partner' vs 'Their partner is sexually attracted to the woman' ",
-			"answer" : 2,
-			"answerText" : "63% of woman prefer somebody attracted to themselves vs themselves attracted to their partner",
-			"option1" : "The woman is sexually attracted to their partner",
-			"option2" : "Their partner is sexually attracted to the woman"
-		},
-		{
-			"id" : 14,
-			"question" : "Would the average woman date somebody with a past drug problem?",
-			"answer" : 2,
-			"answerText" : "69% They would not date somebody with a past problem with drugs",
-			"option1" : "Yes they would date somebody with a past problem with drugs",
-			"option2" : "No they would not date somebody with a past problem with drugs"
-		},
-		{
-			"id" : 13,
-			"question" : " What is more important to women: 'Sexually attractive mate' vs 'A good sense of humor'?  ",
-			"answer" : 2,
-			"answerText" : "75% of women would prefer a 'Sense of humor'",
-			"option1" : "Sexually attractive mate",
-			"option2" : "Sense of humor"
-		},
-		{
-			"id" : 14,
-			"question" : " Which is more attractive: 'Their date being a good singer' vs 'Their date being a good dancer' ",
-			"answer" : 1,
-			"answerText" : "56% prefer to be a good singer",
-			"option1" : "Good singer is more attractive",
-			"option2" : "Good dancer is more attractive"
-		},
-		{
-			"id" : 13,
-			"question" : "Which of these two would romantically arouse a woman more: 'Complimented with sweet words' vs 'A physical caress'? ",
-			"answer" : 2,
-			"answerText" : "56% said a physical caress would be more romantically arousing",
-			"option1" : "Complimented with sweet words",
-			"option2" : "A physical caress"
-		},
-		{
-			"id" : 14,
-			"question" : "On average which does a woman prefer her partner to have: 'A job' or 'Higher education degree'?",
-			"answer" : 2,
-			"answerText" : "77% of women said they prefer their partner to have a job",
-			"option1" : "Higher education degree",
-			"option2" : "A job"
-		},
-		{
-			"id" : 13,
-			"question" : " Which one of the two options would an average woman find more arousing: 'Finger tickling their palm' vs 'A kiss on the cheeck' ? ",
-			"answer" : 1,
-			"answerText" : "52% said fingers tickling their palm",
-			"option1" : "Fingers tickling their palm",
-			"option2" : "A kiss on the cheek"
-		},
-		{
-			"id" : 14,
-			"question" : "Which do women find more romantic: 'A sweet text' or 'A sweet whisper'? ",
-			"answer" : 2,
-			"answerText" : "82% said a sweet whisper",
-			"option1" : "A sweet text",
-			"option2" : "A sweet whisper"
-		},
-		{
-			"id" : 13,
-			"question" : " Which do more women find more important: 'Their dates religious views' or 'Their dates political views'? ",
-			"answer" : 1,
-			"answerText" : "68% said that religious views are more important",
-			"option1" : "Religious views are more important",
-			"option2" : "Political views are more important"
-		},
-		{
-			"id" : 14,
-			"question" : " Which do women find more important in a potential partner: 'They smell good' or 'They have good hair'? ",
-			"answer" : 2,
-			"answerText" : "91% said they prefer if their partner smelled good",
-			"option1" : "They have good hair",
-			"option2" : "They smell good"
-		},
-		{
-			"id" : 13,
-			"question" : "Which do women find more romantic: 'Someone who is sexually sensitive' or 'Someone who is sexually wild' ?",
-			"answer" : 1,
-			"answerText" : "68% said sexually sensitive",
-			"option1" : "Sexually sensitive",
-			"option2" : "Sexually wild"
-		},
-		{
-			"id" : 14,
-			"question" : " Which do women find more important in a potential partner: 'They have attractive clothing style' or 'They have a nice body'? ",
-			"answer" : 2,
-			"answerText" : "59% said a nice body is more important",
-			"option1" : "Attractive clothing style",
-			"option2" : "Nice body"
-		},
-		{
-			"id" : 13,
-			"question" : "Which do women find more romantic: 'Sensual rub down the chest' or 'Sensual rub on the thigh' ?",
-			"answer" : 2,
-			"answerText" : "77% prefer a sensual rub on the thigh",
-			"option1" : "Sensual rub down the chest",
-			"option2" : "Sensual rub on the thigh"
-		},
+
+		{
+
+		"id" : 1,
+		"question" : "Do a majority of women expect to spend more or less than $50 on a first date?",
+		"answer" : 1,
+		"answerText" : "93% of women said they expect to spend less than $50 on a first date",
+		"option1" : "Spend less than $50 on the first date",
+		"option2" : "Spend more than $50 on the first date"
+		},
+
+		{
+		"id" : 2,
+		"question" : "Do a majority of women prefer to be picked up for their date verses meet their date at a location?",
+		"answer" : 2,
+		"answerText" : "85% of women would rather meet their date at the location of the date",
+		"option1" : "Yes. Picked up for their date",
+		"option2" : "No. Meet their date at a location"
+		},
+
+		{
+		"id" : 3,
+		"question" : "Would a majority of women give their date a second chance if the first date did not go well?",
+		"answer" : 2,
+		"answerText" : "Kinda .... 44% of women said they would not give a second chance.",
+		"option1" : "Yes. Would go on another date with that person",
+		"option2" : "No. Would not go on another date with that person"
+		},
+
+		{
+
+		"id" : 4,
+		"question" : "If a couple cannot decide what restaurant to eat at while on a date, would a majority of women make the final decision or prefer their date to make the final decision?",
+		"answer" : 1,
+		"answerText" : "56% of women would make the final decision",
+		"option1" : "Yes. Would prefer to make the final decision",
+		"option2" : "No. Would like their date to make the final decision "
+		},
+
+		{
+		"id" : 5,
+		"question" : "Do a VAST majority of women like to tell their friends about a date they are going on?",
+		"answer" : 1,
+		"answerText" : "85% of women said they tell their friends about upcoming dates. This is different than 50% of men who would tell their friends about a date. ",
+		"option1" : "Yes. Vast majority tell their friends when they are going on a date",
+		"option2" : "No. Vast majority do not tell their friends when they are going on a date"
+		},
+
+		{
+		"id" : 6,
+		"question" : "If the parents of a woman disapprove of the person they are dating, do you believe the woman will most likely stop dating that person? ",
+		"answer" : 2,
+		"answerText" : "59% of women would continue to see that person. 81% of men would continue to date a person even if their parents disapprove",
+		"option1" : "No. Would not continue to date that person",
+		"option2" : "Yes. Would continue to date that person"
+		},
+
+		{
+		"id" : 7,
+		"question" : "On a first date, would women rather know if there will be a SECOND date or would women rather know about past relationships?",
+		"answer" : 1,
+		"answerText" : "59% of women would rather know if there will be a SECOND date.",
+		"option1" : "Know if there will be a SECOND date",
+		"option2" : "Know about past relationships"
+		},
+
+		{
+		"id" : 8,
+		"question" : "Do women believe that the check at the end of a date should be split between the two people?",
+		"answer" : 1,
+		"answerText" : "52% of women believe the check should be split",
+		"option1" : "Yes. Check should be split evenly",
+		"option2" : "No. Their date should pay for the date"
+		},
+
+		{
+		"id" : 9,
+		"question" : "If the friends of a woman disapprove of their date, would they continue to see that person?",
+		"answer" : 2,
+		"answerText" : "81% of women would continue to see a person their friends disapprove of",
+		"option1" : "Would NOT continue",
+		"option2" : "Would continue regardless of the opinions of their friends"
+		},
+
+		{
+		"id" : 10,
+		"question" : "Do a majority of women consider themselves funny?",
+		"answer" : 1,
+		"answerText" : "75% of women consider themselves funny",
+		"option1" : "Yes. A majority of women consider themselves funny",
+		"option2" : "No. A majority of women do not consider themselves funny"
+		},
+
+		{
+		"id" : 11,
+		"question" : "Do a VAST majority of women play hard to get?",
+		"answer" : 2,
+		"answerText" : "Only 50% of women play hard to get",
+		"option1" : "Yes. Vast majority play hard to get",
+		"option2" : "No. Vast majority do not play hard to get"
+		},
+
+		{
+
+		"id" : 12,
+		"question" : "Do you believe the average woman likes to become physical on the first date?",
+		"answer" : 2,
+		"answerText" : "19% of women like to become physical on the first date",
+		"option1" : "Yes. Physical on the first date",
+		"option2" : "No. Does not become physical"
+		},
+
+		{
+		"id" : 13,
+		"question" : "Do a vast majority of women believe they are above average in the bedroom?",
+		"answer" : 2,
+		"answerText" : "Only 50% of women believe they are above average in the bedroom",
+		"option1" : "Yes. Above average in the bedroom",
+		"option2" : "No. Not above average in the bedroom"
+		},
+
+		{
+		"id" : 14,
+		"question" : "Do a majority of women consider themselves flirty?",
+		"answer" : 1,
+		"answerText" : "56% of women consider themselves flirty",
+		"option1" : "Yes. Consider themselves flirty",
+		"option2" : "No. Do not consider themselves flirty"
+		},
+
+		{
+		"id" : 11,
+		"question" : "Have a majority of women ever made an excuse to leave a date early?",
+		"answer" : 2,
+		"answerText" : "56% of women said they have made an excuse to leave a date early",
+		"option1" : "No. Never made an excuse to leave a date early",
+		"option2" : "Yes. Made an excuse to leave a date early"
+		},
+
+		{
+		"id" : 12,
+		"question" : "When women were asked 'Have you ever dated somebody already in a relationship?', what do believe was their response?",
+		"answer" : 2,
+		"answerText" : "81% said they have never dated somebody in a relationship. 75% of men said the opposite",
+		"option1" : "Yes. Dated a person who was already in a relationship",
+		"option2" : "No. Never dated a person who was already in a relationship"
+		},
+
+		{
+		"id" : 13,
+		"question" : "If a date lied about their sexual history and was a virgin, would the VAST majority of women be offended??",
+		"answer" : 2,
+		"answerText" : "A vast majority would not be offended",
+		"option1" : "Yes. Offended",
+		"option2" : "No. Not offended"
+		},
+
+		{
+		"id" : 14,
+		"question" : "If a date lied about their sexual history and had many past sexual encounters, would a majority of women be offended?",
+		"answer" : 1,
+		"answerText" : "69% would be offended",
+		"option1" : "Yes. Offended",
+		"option2" : "No. Not offended"
+		},
+
+		{
+		"id" : 11,
+		"question" : "Have a majority of women lied on a date?",
+		"answer" : 2,
+		"answerText" : "56% of women have not lied on a date",
+		"option1" : "Yes",
+		"option2" : "No"
+		},
+
+		{
+		"id" : 12,
+		"question" : "When women were asked if they thought their date has to dress 'fashionably', what do you believe their response was?",
+		"answer" : 2,
+		"answerText" : "50% of women responded that dressing 'fashionably' was not important",
+		"option1" : "A vast majority of women believe their date needs to dress 'fashionably'",
+		"option2" : "Only some women believe it is important for their date to dress 'fashionably'"
+		},
+
+		{
+		"id" : 13,
+		"question" : "Would a vast majority of women date somebody 5 years older than themselves?",
+		"answer" : 1,
+		"answerText" : "Close to 100% of women expressed they would date somebody 5 years older than themselves",
+		"option1" : "Yes. Date somebody 5 years older",
+		"option2" : "No. Would not date somebody 5 years older"
+		},
+
+		{
+		"id" : 14,
+		"question" : "Would a vast majority of women date somebody 5 years younger than themselves",
+		"answer" : 2,
+		"answerText" : "58% of women said they would not date somebody younger than them",
+		"option1" : "Yes. Date somebody 5 years younger than themselves",
+		"option2" : "No. Would not date somebody 5 years younger than themselves"
+		},
+
+		{
+		"id" : 12,
+		"question" : "If a date lied about their age and was actually 3 years younger, would the average woman be offended?",
+		"answer" : 2,
+		"answerText" : "83% said they would not continue to see that person ",
+		"option1" : "No. Would NOT be offended",
+		"option2" : "Yes. Would have been offended"
+		},
+
+		{
+		"id" : 13,
+		"question" : "If a date lied about their age and was actually 3 years older, would the average woman be offended?",
+		"answer" : 1,
+		"answerText" : "67% said they would not continue to see them.",
+		"option1" : "Yes. Would be offended",
+		"option2" : "No. Would NOT be offended"
+		},
+
+		{
+		"id" : 14,
+		"question" : "If a woman found out their date was poor, do you believe the average woman would want to go another date with that person?",
+		"answer" : 1,
+		"answerText" : "83% of woman said they would go another date with that person",
+		"option1" : "Yes. Would go another date",
+		"option2" : "No. Would NOT go another date"
+		},
+
+		{
+		"id" : 12,
+		"question" : "If a woman found out their date had no friends, do you believe the average woman would want to go another date with that person?",
+		"answer" : 2,
+		"answerText" : "58% of women said they would not go another date with that person",
+		"option1" : "Yes. Would go on another date",
+		"option2" : "No. Would NOT go on another date"
+		},
+
+		{
+		"id" : 13,
+		"question" : "Would the average woman wait 30 minutes for a late date?",
+		"answer" : 1,
+		"answerText" : "58% said they would wait 30 minutes for a late date",
+		"option1" : "Yes. Would wait 30 minutes",
+		"option2" : "No. Would not wait 30 minutes"
+		},
+
+		{
+		"id" : 14,
+		"question" : "Would the average woman date somebody shorter than themselves?",
+		"answer" : 2,
+		"answerText" : "59% of woman said they would NOT date somebody shorter than themselves?",
+		"option1" : "Yes. Date somebody shorter than themselves ",
+		"option2" : "No. Would not date somebody shorter than themselves"
+		},
+
+		{
+		"id" : 12,
+		"question" : "If the friends of a woman expressed their date was not attractive, would the average woman continue to go on the date?",
+		"answer" : 1,
+		"answerText" : "75% of women would continue to go on the date",
+		"option1" : "Yes. Continue to go on the date",
+		"option2" : "No. Not continue to go on the date"
+		},
+
+		{
+		"id" : 13,
+		"question" : "Would a majority of women go dancing on the first date?",
+		"answer" : 1,
+		"answerText" : "57% Would go dancing on the first date",
+		"option1" : "Yes. Go dancing on the first date",
+		"option2" : "No. Would not go dancing on the first date"
+		},
+
+		{
+		"id" : 14,
+		"question" : "Would the average woman eat dinner with their date's family as a first date?",
+		"answer" : 2,
+		"answerText" : "86% of women said they would NOT eat dinner with the family as a first date",
+		"option1" : "Yes. First date with the date's family",
+		"option2" : "No. No first date with the date's family"
+		},
+
+		{
+		"id" : 13,
+		"question" : "If a woman found a date boring, do believe the average woman would go on another date with that person?",
+		"answer" : 2,
+		"answerText" : "57% of women would go another date",
+		"option1" : "Yes. Go another date",
+		"option2" : "No. Would not go another date"
+		},
+
+		{
+		"id" : 14,
+		"question" : "If a date did not graduate high school, would the average woman consider it a negative or not care?",
+		"answer" : 1,
+		"answerText" : "71% of woman would consider it a negative",
+		"option1" : "It is a negative",
+		"option2" : "It is not a negative"
+		},
+
+		{
+		"id" : 13,
+		"question" : "Would the average woman date a friend's ex?",
+		"answer" : 2,
+		"answerText" : "83% would not date a friend's ex",
+		"option1" : "Yes. Date a friend's ex",
+		"option2" : "No. Would not date a friend's ex"
+		},
+
+		{
+		"id" : 14,
+		"question" : "If a woman embarrassed herself on a date and their date laughed at them, would the average woman be offended?",
+		"answer" : 1,
+		"answerText" : "57% of woman said they would be offended",
+		"option1" : "Yes. Would be offended",
+		"option2" : "No. Would not be offended"
+		},
+
+		{
+		"id" : 13,
+		"question" : "Do women prefer to date a person with muscular or non-muscular build?",
+		"answer" : 2,
+		"answerText" : "57% prefer a date without a muscular build",
+		"option1" : "Muscular build",
+		"option2" : "Non-muscular build"
+		},
+
+		{
+		"id" : 14,
+		"question" : "Does the average woman get nervous before a date?",
+		"answer" : 1,
+		"answerText" : "86% of women get nervous before a date",
+		"option1" : "Yes. Get nervous before a date",
+		"option2" : "No. Do not get nervous before a date"
+		},
+
+		{
+		"id" : 13,
+		"question" : "If a date smelled bad, would the average woman let their date know?",
+		"answer" : 2,
+		"answerText" : "86% would not tell their date they smell bad",
+		"option1" : "Yes. Tell their date",
+		"option2" : "No. Would not tell their date"
+		},
+
+		{
+		"id" : 14,
+		"question" : "Have a majority of women lied to cancel a date?",
+		"answer" : 1,
+		"answerText" : "57% of women have lied to cancel a date",
+		"option1" : "Yes. Lied to cancel a date",
+		"option2" : "No. Never lied to cancel a date"
+		},
+
+		{
+		"id" : 14,
+		"question" : "Do you believe an average woman needs more than 1 date to know if they like a person or just 1 date?",
+		"answer" : 1,
+		"answerText" : "58% of woman need more than 1 date but that means 42% of woman decide on the first date",
+		"option1" : "Yes. More than 1 date",
+		"option2" : "No. Just 1 date"
+		},
+
+		{
+		"id" : 13,
+		"question" : "What is more important to women: 'Attraction' or 'Intelligence' ",
+		"answer" : 2,
+		"answerText" : "67% of women said intelligence is more important",
+		"option1" : "Attraction",
+		"option2" : "Intelligence"
+		},
+
+		{
+		"id" : 14,
+		"question" : "Would most women date somebody who smokes cigarettes?",
+		"answer" : 2,
+		"answerText" : "67% of women would not date somebody who smokes cigarettes",
+		"option1" : "Yes to somebody who smokes cigarettes",
+		"option2" : "No to somebody who smokes cigarettes"
+		},
+
+		{
+		"id" : 14,
+		"question" : " What is more important to women: 'Gets along with your family ' vs 'Gets along with your friends' ",
+		"answer" : 1,
+		"answerText" : "66% of women said getting along with her family is more important",
+		"option1" : "Gets along with her family",
+		"option2" : "Gets along with her friends"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : "Do most women consider themselves an above average dater?",
+
+		"answer" : 1,
+
+		"answerText" : "69% of women believe they are above average daters",
+
+		"option1" : "Yes. Above average",
+
+		"option2" : "No. Not above average"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : "Do most women consider themselves more attractive than the average woman? ",
+
+		"answer" : 1,
+
+		"answerText" : "58% of women consider themselves more attractive than the average woman.",
+
+		"option1" : "Yes. More attractive",
+
+		"option2" : "No. Less attractive"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : "How many people does the average woman date at one time?",
+
+		"answer" : 2,
+
+		"answerText" : "83% said just one person at a time",
+
+		"option1" : "2 to 3 people at one time",
+
+		"option2" : "Just one person at a time"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : "When women were asked if their last date was arranged online or not online, what do you believe was their response?",
+
+		"answer" : 2,
+
+		"answerText" : "59% percent said they did NOT meet their last date online",
+
+		"option1" : "Most said they met their last date online",
+
+		"option2" : "Most said they did NOT meet their last date online"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : "Would the average woman be comfortable dating somebody who made 4X the income of herself?",
+
+		"answer" : 1,
+
+		"answerText" : "92% of women said they would be comfortable dating somebody who made 4X their income",
+
+		"option1" : "Yes. Comfortable",
+
+		"option2" : "No. Uncomfortable"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : "Do you believe the average woman would be comfortable taking $100 to go on a date with somebody that repulsed them? ",
+
+		"answer" : 2,
+
+		"answerText" : "75% said they would be uncomfortable",
+
+		"option1" : "Yes. Comfortable",
+
+		"option2" : "No. Uncomfortable"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : " Would a VAST majority of women prefer a mate with a 'Sense of humor' over 'Good hygiene'? ",
+
+		"answer" : 2,
+
+		"answerText" : "Only 50% of women prefer 'Sense of humor' over  'Good hygiene'",
+
+		"option1" : "Yes. A vast majority prefer a 'Sense of humor' over 'Good hygiene' ",
+
+		"option2" : "No. A vast majority don't prefer a 'Sense of humor' over 'Good hygiene' ",
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : " What is more important to women: 'Their mate's religion' vs 'Their mate's education level' ",
+
+		"answer" : 2,
+
+		"answerText" : "75% believe education level is more important",
+
+		"option1" : "Religion",
+
+		"option2" : "Education level"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : " What is more important to women: 'Being healthy' vs 'Being empathetic' ",
+
+		"answer" : 2,
+
+		"answerText" : "75% believe being empathetic is more important",
+
+		"option1" : "Being healthy",
+
+		"option2" : "Being empathetic"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : " What is more attractive to a woman: 'Somebody who can stand up for themselves' vs 'Make people around them comfortable' ",
+
+		"answer" : 1,
+
+		"answerText" : "88% find it attractive when their date can make people around them comfortable ",
+
+		"option1" : "Make people around them comfortable",
+
+		"option2" : "Stand up for themselves"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : " What is more important to women: 'The woman is sexually attracted to their partner' vs 'Their partner is sexually attracted to the woman' ",
+
+		"answer" : 2,
+
+		"answerText" : "63% of woman prefer somebody attracted to themselves",
+
+		"option1" : "The woman is sexually attracted to their partner",
+
+		"option2" : "Their partner is sexually attracted to the woman"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : "Would the average woman date somebody with a past drug problem?",
+
+		"answer" : 2,
+
+		"answerText" : "69% said they would not date somebody with a past drug problem",
+
+		"option1" : "Yes they would date somebody with a past drug problem",
+
+		"option2" : "No they would not date somebody with a past drug problem"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : " What is more important to women: 'Sexually attractive mate' vs 'A good sense of humor'?  ",
+
+		"answer" : 2,
+
+		"answerText" : "75% of women would prefer a 'Sense of humor'",
+
+		"option1" : "Sexually attractive mate",
+
+		"option2" : "Sense of humor"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : " Which is more attractive: 'Their date being a good singer' vs 'Their date being a good dancer' ",
+
+		"answer" : 1,
+
+		"answerText" : "56% think a good singer is more attractive",
+
+		"option1" : "Good singer is more attractive",
+
+		"option2" : "Good dancer is more attractive"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : "Which of these two would romantically arouse a woman more: 'Complimented with sweet words' vs 'A physical caress'? ",
+
+		"answer" : 2,
+
+		"answerText" : "56% said a physical caress would be more romantically arousing",
+
+		"option1" : "Complimented with sweet words",
+
+		"option2" : "A physical caress"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : "On average, which does a woman prefer her partner to have: 'A job' or 'Higher education degree'?",
+
+		"answer" : 2,
+
+		"answerText" : "77% of women said they prefer their partner to have a job",
+
+		"option1" : "Higher education degree",
+
+		"option2" : "A job"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : " Which one of the two options would an average woman find more arousing: 'Finger tickling their palm' vs 'A kiss on the check' ? ",
+
+		"answer" : 1,
+
+		"answerText" : "52% said fingers tickling their palm",
+
+		"option1" : "Finger tickling their palm",
+
+		"option2" : "A kiss on the cheek"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : "Which do women find more romantic: 'A sweet text' or 'A sweet whisper'? ",
+
+		"answer" : 2,
+
+		"answerText" : "82% said a sweet whisper",
+
+		"option1" : "A sweet text",
+
+		"option2" : "A sweet whisper"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : " Which do more women find more important: 'Their dates religious views' or 'Their dates political views'? ",
+
+		"answer" : 1,
+
+		"answerText" : "68% said that religious views are more important",
+
+		"option1" : "Religious views are more important",
+
+		"option2" : "Political views are more important"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : " Which do women find more important in a potential partner: 'They smell good' or 'They have good hair'? ",
+
+		"answer" : 2,
+
+		"answerText" : "91% said they prefer if their partner smelled good",
+
+		"option1" : "They have good hair",
+
+		"option2" : "They smell good"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : "Which do women find more romantic: 'Someone who is sexually sensitive' or 'Someone who is sexually wild' ?",
+
+		"answer" : 1,
+
+		"answerText" : "68% said sexually sensitive",
+
+		"option1" : "Sexually sensitive",
+
+		"option2" : "Sexually wild"
+
+		},
+
+		{
+
+		"id" : 14,
+
+		"question" : " Which do women find more important in a potential partner: 'They have an attractive clothing style' or 'They have a nice body'? ",
+
+		"answer" : 2,
+
+		"answerText" : "59% said a nice body is more important",
+
+		"option1" : "Attractive clothing style",
+
+		"option2" : "Nice body"
+
+		},
+
+		{
+
+		"id" : 13,
+
+		"question" : "Which do women find more romantic: 'Sensual rub down the chest' or 'Sensual rub on the thigh' ?",
+
+		"answer" : 2,
+
+		"answerText" : "77% prefer a sensual rub on the thigh",
+
+		"option1" : "Sensual rub down the chest",
+
+		"option2" : "Sensual rub on the thigh"
+
+		},
+
 	]
+
 }
 
-
+ 
 
 
 
